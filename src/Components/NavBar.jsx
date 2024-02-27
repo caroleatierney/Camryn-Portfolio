@@ -1,20 +1,15 @@
-"use client";
-
-// import Link from "next/link";
 import React from "react";
 import { Link } from "react-router-dom";
-import { Navbar } from "flowbite-react";
 
-const NavBar = () => {
+export default function NavBar() {
   return (
     <div className="bg-slate-200">
-
         <Link to="/Camryn-Portfolio">Home</Link>
-
         <Link to="/about">About</Link>
-
+        <Link to="/education">Education</Link>
+        <Link to="/portfolioSwaponz">PortfolioSwaponz</Link>
+        <Link to="/portfolioEventProposal">PortfolioEventProposal</Link>
+        <Link to="/contact">Contact</Link>
     </div>
   );
 };
-
-export default NavBar;

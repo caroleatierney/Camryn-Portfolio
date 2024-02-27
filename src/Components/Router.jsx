@@ -1,6 +1,6 @@
 import React from "react";
 import App from "../App.jsx";
-import { Router, createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 
 import About                  from "../Components/About.jsx";
 import Header                 from "../Components/Header";

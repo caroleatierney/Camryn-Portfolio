@@ -5,14 +5,14 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
   return {
     define: {
-      'process.env': env
+      "process.env": env,
     },
     base: "/Camryn-Portfolio/",
     build: {
       outDir: "dist",
       rollupOptions: {
         output: {
-          assetFileNames: assetInfo => {
+          assetFileNames: (assetInfo) => {
             return assetInfo.fileName === "style.css"
               ? "css/style.css"
               : `assets/${assetInfo.fileName}`;
@@ -20,8 +20,16 @@ export default defineConfig(({ mode }) => {
           chunkFileNames: "js/[name]-[hash].js",
           entryFileNames: "js/[name]-[hash].js",
         },
+        onwarn(warning, warn) {
+          if (warning.code === "MODULE_LEVEL_DIRECTIVE") {
+            return;
+          }
+          warn(warning);
         },
+        chunkSizeWarningLimit: 500,
       },
-    };
+    },
+    plugins: [react()],
+  };
   });
 
