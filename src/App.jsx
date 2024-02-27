@@ -1,15 +1,14 @@
-import React from "react";
-// import About from "/src/Components/About";
-// import PortfolioSwaponz from "/src/Components/PortfolioSwaponz";
-// import PortfolioEventProposal from "/src/Components/PortfolioEventProposal";
-import NavBar from "/src/Components/NavBar";
+// For some reason this is /Camryn-Portfolio
+
+
+import React from 'react';
+import NavBar from './Components/NavBar';
+
 export default function App() {
   return (
-    <div>
-      <NavBar></NavBar>
-      {/* <About></About> */}
-      {/* <PortfolioSwaponz></PortfolioSwaponz> */}
-      {/* <PortfolioEventProposal></PortfolioEventProposal> */}
-    </div>
+    <>
+      <NavBar />
+      <h1 className="text-red-400">Home Page</h1>
+    </>
   );
 }

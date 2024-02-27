@@ -1,8 +1,11 @@
 import React from "react";
 import { Card } from "flowbite-react";
-"use client";
+import NavBar from "./NavBar";
+("use client");
 export default function About() {
   return (
+    <div>
+    <NavBar />
     <Card
       className="max-w-full text-center"
       imgSrc="./src/Assets/Camryn-Headshot.jpg"
@@ -11,7 +14,6 @@ export default function About() {
       <h1 className="text-2xl font-bold tracking-tight text-gray-400 dark:text-white">
         About me
       </h1>
-
       <p className="font-normal text-gray-500 dark:text-gray-400">
         I am a senior at the University of Massachusetts Amherst, pursuing a BBA
         in marketing and a minor in psychology. I chose to complete my degree at
@@ -24,5 +26,6 @@ export default function About() {
         for social media outreach and event planning.
       </p>
     </Card>
+    </div>
   );
 }
