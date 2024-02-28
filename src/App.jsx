@@ -1,5 +1,4 @@
-// For some reason this is /Camryn-Portfolio
-
+// For some reason this is /Camryn-Portfolio - set up in package.json
 
 import React from 'react';
 import NavBar from './Components/NavBar';

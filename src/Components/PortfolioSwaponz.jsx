@@ -1,7 +1,9 @@
 import React from "react";
+import NavBar from "./NavBar";
 export default function PortfolioSwaponz() {
   return (
     <div>
+      <NavBar />
       <div className="text-center">
         <a
           href="portfolio-event-proposal.html"

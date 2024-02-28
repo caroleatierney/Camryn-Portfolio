@@ -1,8 +1,10 @@
 import React from 'react'
+import NavBar from "./NavBar";
 
 export default function Education() {
   return (
     <div className="text-red-500">
+      <NavBar />
       <h1>Education</h1>
       <div>
         <div>
@@ -31,9 +33,7 @@ export default function Education() {
                   src="../Assets/Isenberg-Logo.png"
                   alt="CB Logo"
                 />
-                src/Assets/CB-Logo.png
-                src/Components/Education.jsx
-
+                src/Assets/CB-Logo.png src/Components/Education.jsx
               </div>
               <div className="m-5">
                 <h3>Isenberg School of Management, UMass Amherst</h3>

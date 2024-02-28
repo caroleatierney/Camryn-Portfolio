@@ -11,12 +11,13 @@ import PortfolioSwaponz       from "../Components/PortfolioSwaponz";
 import PortfolioEventProposal from "../Components/PortfolioEventProposal";
 
 export const router = createBrowserRouter([
-  { path: "/camryn-portfolio",       element: <App /> },
-  { path: "/header",                 element: <Header /> },
-  { path: "/about",                  element: <About /> },
-  { path: "/footer",                 element: <Footer /> },
-  { path: "/education",              element: <Education /> },
-  { path: "/contact",                element: <Contact /> },
-  { path: "/portfolioSwaponz",       element: <PortfolioSwaponz /> },
+  { path: "/", element: <App /> },
+  { path: "/camryn-portfolio", element: <App /> },
+  { path: "/header", element: <Header /> },
+  { path: "/about", element: <About /> },
+  { path: "/footer", element: <Footer /> },
+  { path: "/education", element: <Education /> },
+  { path: "/contact", element: <Contact /> },
+  { path: "/portfolioSwaponz", element: <PortfolioSwaponz /> },
   { path: "/portfolioEventProposal", element: <PortfolioEventProposal /> },
 ]);
