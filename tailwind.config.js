@@ -8,6 +8,6 @@ export default {
   theme: {
     extend: {},
   },
+  base: "/Camryn-Portfolio/",
   plugins: [require("flowbite/plugin")],
 };
-

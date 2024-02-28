@@ -7,7 +7,7 @@ export default function App() {
   return (
     <>
       <NavBar />
-      <h1 className="text-red-400">Home Page</h1>
+      <h1 className="text-gray-300">Home Page</h1>
     </>
   );
 }
