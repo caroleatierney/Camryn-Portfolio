@@ -5,18 +5,14 @@ import CamrynHeadshot from "../Images/Camryn-Headshot.jpg";
 
 export default function About() {
   return (
-    <div className="text-gray-300 bg-slate-700">
+    <div>
       <NavBar />
-      <div className="text-3xl p-12 flex flex-row justify-evenly">
-        <Card
-          className="w-full text-center font-bold tracking-tight text-gray-900 dark:text-white"
-          imgSrc={CamrynHeadshot}
-          horizontal
-        >
-          <h1 className="text-5xl font-bold tracking-tight text-gray-500 dark:text-white">
+      <div className="flex justify-center">
+        <Card className="w-2/5" imgSrc={CamrynHeadshot} imgAlt="Headshot">
+          <h1 className="text-5xl font-bold tracking-tight text-gray-500 dark:text-white text-center  p-2">
             About me
           </h1>
-          <p className="font-normal text-gray-500 dark:text-gray-400">
+          <p className="font-normal text-2xl text-gray-500 dark:text-gray-400 p-2">
             I am a senior at the University of Massachusetts Amherst, pursuing a
             BBA in marketing and a minor in psychology. I chose to complete my
             degree at the Isenberg School of Management because of its
