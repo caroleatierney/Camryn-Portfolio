@@ -1,18 +1,19 @@
 import React from "react";
 import { Card } from "flowbite-react";
 import NavBar from "./NavBar";
+import CamrynHeadshot from "../Images/Camryn-Headshot.jpg";
 
 export default function About() {
   return (
-    <div>
+    <div className="text-gray-300 bg-slate-700">
       <NavBar />
-      <div className="justify-center">
+      <div className="text-3xl p-12 flex flex-row justify-evenly">
         <Card
-          className="max-w-full text-center"
-          imgSrc="./Assets/Camryn-Headshot.jpg"
+          className="w-full text-center font-bold tracking-tight text-gray-900 dark:text-white"
+          imgSrc={CamrynHeadshot}
           horizontal
         >
-          <h1 className="text-2xl font-bold tracking-tight text-gray-400 dark:text-white">
+          <h1 className="text-5xl font-bold tracking-tight text-gray-500 dark:text-white">
             About me
           </h1>
           <p className="font-normal text-gray-500 dark:text-gray-400">
