@@ -4,9 +4,6 @@ export default function PortfolioEventProposal() {
   return (
     <div>
         <NavBar />
-        <div className="text-center">
-            <a href="portfolio-swaponz.html" target="_blank" className="text-white bg-gray-400 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Swaponz</a>
-        </div>
         <div id="default-carousel" className="relative h-96 max-h-full py-2" data-carousel="static">
             {/* Carousel wrapper */}
             <div className="relative h-96 overflow-hidden rounded-lg md:h-96">

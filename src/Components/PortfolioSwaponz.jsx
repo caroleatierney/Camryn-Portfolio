@@ -4,22 +4,12 @@ export default function PortfolioSwaponz() {
   return (
     <div>
       <NavBar />
-      <div className="text-center">
-        <a
-          href="portfolio-event-proposal.html"
-          target="_blank"
-          className="text-white bg-gray-400 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-        >
-          Event Proposal
-        </a>
-      </div>
-
-      <div className="mx-auto text-center text-xs p-2">
-        <div className="block max-w-lg p-6 border bg-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-auto text-center">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      <div className="mx-auto text-center text-2xl p-2">
+        <div className="block w-2/5 p-6 border bg-gray-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-auto text-center text-gray-600 dark:text-gray-400">
+          <h1 className="mb-2 p-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-white">
             Swaponz Internship | June 2023 - Present
-          </h5>
-          <p className="font-normal text-gray-700 dark:text-gray-400">
+          </h1>
+          <p>
             This past summer I had the opportunity to begin an internship at a
             startup company called Swaponz. Swaponz is a phone case company that
             creates one of a kind and customizable phone cases that can be
@@ -36,6 +26,7 @@ export default function PortfolioSwaponz() {
             plan and lead informational meetings that will be beneficial in any
             future positions.
           </p>
+          <br></br>
           <p>
             As a sales and marketing intern at Swaponz, I am creatively
             promoting Swaponz products both in person and online. I lead the
@@ -46,13 +37,15 @@ export default function PortfolioSwaponz() {
             involved. When the opportunities arise, I then become an integral
             part of planning and conducting the event.
           </p>
-          <a
-            href="https://swaponz.com/"
-            target="_blank"
-            className="text-white bg-gray-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-          >
-            Check out Swaponz
-          </a>
+          <div className="pt-6 pb-3">
+            <a
+              href="https://swaponz.com/"
+              target="_blank"
+              className="text-white bg-gray-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            >
+              Check out Swaponz
+            </a>
+          </div>
         </div>
       </div>
     </div>

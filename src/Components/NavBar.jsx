@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CamrynLogo from "../Images/CB-Logo.png";
+import { Dropdown } from "flowbite-react";
+
+const customTheme = {
+  inlineWrapper:
+    "text-slate-200 bg-slate-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-small rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800",
+};
 
 export default function NavBar() {
   return (
@@ -20,11 +26,22 @@ export default function NavBar() {
       <div>
         <Link to="/education">Education</Link>
       </div>
+
       <div>
-        <Link to="/portfolioSwaponz">PortfolioSwaponz</Link>
-      </div>
-      <div>
-        <Link to="/portfolioEventProposal">PortfolioEventProposal</Link>
+        <Dropdown
+          inline={true}
+          theme={customTheme}
+          label="Portfolio"
+          className="bg-slate-300 hover:bg-gray-300 text-black text-5xl"
+          dismissOnClick={false}
+        >
+          <Dropdown.Item>
+            <Link to="/portfolioSwaponz">PortfolioSwaponz</Link>
+          </Dropdown.Item>
+          <Dropdown.Item>
+            <Link to="/portfolioEventProposal">PortfolioEventProposal</Link>
+          </Dropdown.Item>
+        </Dropdown>
       </div>
       <div>
         <Link to="/contact">Contact</Link>
