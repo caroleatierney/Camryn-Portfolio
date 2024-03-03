@@ -12,3 +12,11 @@ add error page
 https://reactrouter.com/en/main/start/tutorial
 
 Add marketing image on home page
+
+
+not responsive
+
+Daisey UI???
+
+navbar - logo bigger tabs to flex
+carousel

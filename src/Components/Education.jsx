@@ -14,7 +14,7 @@ export default function Education() {
         <Card className="w-full text-center font-bold tracking-tight bg-gray-100 text-gray-900 dark:text-white pt-12 m-6">
           <div className="flex flex-row justify-evenly">
             <div className="flex flex-col items-center">
-              <div className="flex flex-row border-8 p-12 border-red-900 h-full">
+              <div className="flex flex-wrap border-8 p-12 border-red-900 h-full">
                 <img
                   className="pr-12"
                   src={UMassIsenbergLogoI}
@@ -36,7 +36,7 @@ export default function Education() {
             </div>
 
             <div className="flex flex-col items-center">
-              <div className="border-8 border-red-900 p-12 flex flex-row items-center h-full">
+              <div className="border-8 border-red-900 p-12 flex flex-wrap items-center h-full">
                 <img
                   className="object-scale-down max-h-full drop-shadow-md rounded-md m-auto"
                   src={UMassLogo}

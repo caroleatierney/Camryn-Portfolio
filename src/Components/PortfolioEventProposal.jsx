@@ -24,9 +24,8 @@ export default function PortfolioEventProposal() {
   return (
     <div className="m-6">
       <NavBar />
-      <div className="h-[66rem] w-1/3 justify-center ">
-        {/* <Carousel relative h-full flex> */}
-        <Carousel relative h-full w-full justify-center items-center> 
+      <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+        <Carousel>
           <img src={Page1} alt="Page 1" />
           <img src={Page2} alt="Page 2" />
           <img src={Page3} alt="Page 3" />
