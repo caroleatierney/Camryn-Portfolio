@@ -7,12 +7,16 @@ export default function About() {
   return (
     <div>
       <NavBar />
-      <div className="flex justify-center">
-        <Card className="w-2/5" imgSrc={CamrynHeadshot} imgAlt="Headshot">
-          <h1 className="text-5xl font-bold tracking-tight text-gray-500 dark:text-white text-center  p-2">
+      <div className="flex justify-center text-center">
+        <Card
+          className="w-2/5 bg-gray-200 p-3"
+          imgSrc={CamrynHeadshot}
+          imgAlt="Headshot"
+        >
+          <h1 className="text-5xl bg-gray-200 font-bold tracking-tight text-gray-600 dark:text-white text-center p-2">
             About me
           </h1>
-          <p className="font-normal text-2xl text-gray-500 dark:text-gray-400 p-2">
+          <p className="font-normal text-3xl bg-gray-200 text-gray-500 dark:text-gray-400 p-2">
             I am a senior at the University of Massachusetts Amherst, pursuing a
             BBA in marketing and a minor in psychology. I chose to complete my
             degree at the Isenberg School of Management because of its

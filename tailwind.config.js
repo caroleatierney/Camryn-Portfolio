@@ -6,7 +6,10 @@ export default {
     "node_modules/flowbite-react/lib/esm/**/*.js",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      sohne:  ["SOHNE", "semibold"],
+      serif: ['ui-serif', 'Georgia'],
+    },
   },
   base: "/Camryn-Portfolio/",
   plugins: [require("flowbite/plugin")],
