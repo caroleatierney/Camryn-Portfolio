@@ -13,7 +13,7 @@ export default function About() {
           imgSrc={CamrynHeadshot}
           imgAlt="Headshot"
         >
-          <h1 className="text-5xl bg-gray-200 font-bold tracking-tight text-gray-600 dark:text-white text-center p-2">
+          <h1 className="text-5xl bg-gray-200 font-bold tracking-tight text-gray-600 dark:text-white text-center p-2 hover:animate-bounce">
             About me
           </h1>
           <p className="font-normal text-3xl bg-gray-200 text-gray-500 dark:text-gray-400 p-2">

@@ -8,7 +8,10 @@ export default function PortfolioSwaponz() {
       <div className="flex justify-center">
         <Card className="w-2/5 bg-gray-200 p-3.5 text-center" imgAlt="Headshot">
           <h1 className="text-5xl bg-gray-200 font-bold tracking-tight text-gray-600 dark:text-white p-2">
-            Swaponz Internship | June 2023 - Present
+            Swaponz Internship
+          </h1>
+          <h1 className="text-3xl bg-gray-200 font-bold tracking-tight text-gray-600 dark:text-white p-2">
+            June 2023 - Present
           </h1>
           <p className="font-normal text-3xl bg-gray-200 text-gray-500 dark:text-gray-400 p-2">
             This past summer I had the opportunity to begin an internship at a
