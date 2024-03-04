@@ -7,9 +7,9 @@ export default function About() {
   return (
     <div>
       <NavBar />
-      <div className="flex justify-center text-center">
+      <div className="w-1/2 mx-auto">
         <Card
-          className="w-2/5 bg-gray-200 p-3"
+          className="bg-gray-200 p-3"
           imgSrc={CamrynHeadshot}
           imgAlt="Headshot"
         >
@@ -25,8 +25,8 @@ export default function About() {
             acquiring a job in a marketing position or related business
             position, where I can expand upon my prior knowledge with new
             information, skills, and experience. I would love to work for a
-            company that allows me to combine my marketing skills with my
-            passion for social media outreach and event planning.
+            company that allow me to combine my marketing skills with my passion
+            for social media outreach and event planning.
           </p>
         </Card>
       </div>

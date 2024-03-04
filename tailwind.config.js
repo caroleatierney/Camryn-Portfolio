@@ -7,8 +7,11 @@ export default {
   ],
   theme: {
     fontFamily: {
-      sohne:  ["SOHNE", "semibold"],
-      serif: ['ui-serif', 'Georgia'],
+      sohne: ["SOHNE", "semibold"],
+      serif: ["ui-serif", "Georgia"],
+    },
+    container: {
+      center: true,
     },
   },
   base: "/Camryn-Portfolio/",

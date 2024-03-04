@@ -24,7 +24,8 @@ export default function PortfolioEventProposal() {
   return (
     <div className="m-6">
       <NavBar />
-      <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+      {/* <div className="h-56 sm:h-64 xl:h-80 2xl:h-96"> */}
+      <div className="h-[66rem] w-1/3 justify-center items-center mx-auto">
         <Carousel>
           <img src={Page1} alt="Page 1" />
           <img src={Page2} alt="Page 2" />
