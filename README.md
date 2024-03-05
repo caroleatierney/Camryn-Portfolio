@@ -20,3 +20,7 @@ Daisey UI???
 
 navbar - logo bigger tabs to flex
 carousel
+
+for debuugging
+
+className="font-normal text:sm text-red-500 sm:text-3xl sm:text-amber-500 md:text-4xl md:text-yellow-200 lg:text-5xl lg:text-blue-500 bg-gray-200 text-gray-500 dark:text-gray-400 p-2 text-center"
