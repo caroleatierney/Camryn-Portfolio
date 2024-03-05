@@ -5,15 +5,15 @@ export default function PortfolioSwaponz() {
   return (
     <div>
       <NavBar />
-      <div className="flex justify-center">
-        <Card className="w-2/5 bg-gray-200 p-3.5 text-center" imgAlt="Headshot">
-          <h1 className="text-5xl bg-gray-200 font-bold tracking-tight text-gray-600 dark:text-white p-2">
+      <div className="w-screen flex flex-col items-center justify-center pt-10">
+        <Card className="bg-gray-200 p-1.5 h-auto w-3/4 md:w-1/2 lg:w-2/3 xl:w-1/3">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl bg-gray-200 font-bold tracking-tight text-gray-600 dark:text-white text-center hover:animate-bounce sm:text.sm">
             Swaponz Internship
           </h1>
-          <h1 className="text-3xl bg-gray-200 font-bold tracking-tight text-gray-600 dark:text-white p-2">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl bg-gray-200 font-bold tracking-tight text-gray-600 dark:text-white text-center hover:animate-bounce sm:text.sm">
             June 2023 - Present
           </h1>
-          <p className="font-normal text-3xl bg-gray-200 text-gray-500 dark:text-gray-400 p-2">
+          <p className="font-normal text:xs text-red-500 sm:text-3xl sm:text-amber-500 md:text-4xl md:text-yellow-200 lg:text-5xl lg:text-blue-500 bg-gray-200 text-gray-500 dark:text-gray-400 p-2 text-center">
             This past summer I had the opportunity to begin an internship at a
             startup company called Swaponz. Swaponz is a phone case company that
             creates one of a kind and customizable phone cases that can be
