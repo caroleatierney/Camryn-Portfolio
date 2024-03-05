@@ -14,7 +14,7 @@ https://reactrouter.com/en/main/start/tutorial
 Add marketing image on home page
 
 
-not responsive
+
 
 Daisey UI???
 
