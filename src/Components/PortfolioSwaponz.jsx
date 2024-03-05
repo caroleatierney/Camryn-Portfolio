@@ -31,7 +31,7 @@ export default function PortfolioSwaponz() {
             future positions.
           </p>
           <br></br>
-          <p className="font-normal text-3xl bg-gray-200 text-gray-500 dark:text-gray-400 p-2">
+          <p className="font-normal text:xs  sm:text-3xl  md:text-4xl 0 lg:text-5xl bg-gray-200 text-gray-500 dark:text-gray-400 p-2 text-center">
             As a sales and marketing intern at Swaponz, I am creatively
             promoting Swaponz products both in person and online. I lead the
             ambassador program, where I create content for social media, as well
