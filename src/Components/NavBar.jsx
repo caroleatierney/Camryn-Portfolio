@@ -13,7 +13,7 @@ export default function NavBar() {
   return (
     <div className="bg-slate-700 flex flex-wrap p-3 justify-evenly text-3xl text-slate-200 items-center">
       <div className="flex flex-wrap items-center space-x-4 rtl:space-x-reverse">
-        <img src={CamrynLogo} className="w-1/3 h-1/3" alt="CB Logo" />
+        <img src={CamrynLogo} className="w-1/5 h-1/5" alt="CB Logo" />
         <span className="self-center text-5xl font-semibold  dark:text-white text-gray-300 p-7">
           CAMRYN BUONACORE
         </span>

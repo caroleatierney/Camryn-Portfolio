@@ -8,23 +8,19 @@ import UMassIsenbergLogoName from "../Images/Isenberg-Name.png";
 
 export default function Education() {
   return (
-    <div className="text-gray-300 bg-slate-700 text-3xl p-12">
+    <div className="text-gray-300 bg-slate-700 text-3xl">
       <NavBar />
-      <div className="flex flex-wrap justify-center items-center">
-        <Card className="w-full text-center font-bold tracking-tight bg-gray-100 text-gray-900 dark:text-white pt-12 m-20">
+      <div className="flex flex-wrap justify-center items-center mx-auto p-10 w-5/6">
+        <Card className="w-full text-center font-bold tracking-tight bg-gray-200 text-gray-900 dark:text-white">
           <div className="flex flex-row justify-evenly">
             <div className="flex flex-col items-center">
-              <div className="flex flex-wrap border-8 p-12 border-red-900 h-full justify-center">
+              <div className="flex flex-wrap border-8 p-10 m-5 border-red-900 h-full justify-center">
                 <img
-                  className="pr-12 pb-8"
+                  className="pb-10"
                   src={UMassIsenbergLogoI}
                   alt="Isenberg-Logo"
                 />
-                <img
-                  className="pr-12"
-                  src={UMassIsenbergLogoName}
-                  alt="Isenberg-Logo"
-                />
+                <img src={UMassIsenbergLogoName} alt="Isenberg-Logo" />
               </div>
               <a
                 href="http://linkedin.com/in/camryn-buonacore"
@@ -36,7 +32,7 @@ export default function Education() {
             </div>
 
             <div className="flex flex-col items-center">
-              <div className="border-8 border-red-900 p-12 flex flex-wrap items-center h-full">
+              <div className="border-8 border-red-900 p-10 m-5 flex flex-wrap items-center">
                 <img
                   className="object-scale-down max-h-full drop-shadow-md rounded-md m-auto"
                   src={UMassLogo}
