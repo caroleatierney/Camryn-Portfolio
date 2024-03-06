@@ -27,7 +27,7 @@ export default function About() {
             college. I am interested in acquiring a job in a marketing, sales,
             or event management position and expand upon my prior knowledge by
             gaining new skills and experience. I would love to work for a
-            company that allow me to combine my marketing skills with my passion
+            company that will allow me to combine my marketing skills with my passion
             for social media outreach and event planning.
           </p>
         </div>
