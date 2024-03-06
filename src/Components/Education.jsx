@@ -42,7 +42,7 @@ export default function Education() {
                   src={UMassLogo}
                   alt="UMass-Logo"
                 />
-                <span className="inline-block align-middle mt-4 text-3xl text-red-900 leading-loose pl-8 font-serif">
+                <span className="inline-block sm:text-1xl md:text-3xl lg:text-4xl xl:text-4xl justify-center align-middle text-3xl text-red-900 leading-loose font-serif mx-auto p-12">
                   <p>Bachelor of Business Administration</p>
                   <p>Marketing</p>
                   <p>Sep 2020 - May- 2024</p>
