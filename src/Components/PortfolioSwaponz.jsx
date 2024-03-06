@@ -6,14 +6,14 @@ export default function PortfolioSwaponz() {
     <div>
       <NavBar />
       <div className="w-screen flex flex-col items-center justify-center pt-10">
-        <Card className="bg-gray-200 p-1.5 h-auto w-3/4 md:w-1/2 lg:w-2/3 xl:w-1/3">
+        <Card className="bg-gray-200 p-1.5 h-auto w-3/4 md:w-1/2 lg:w-2/3 xl:w-2/5">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl bg-gray-200 font-bold tracking-tight text-gray-600 dark:text-white text-center hover:animate-bounce sm:text.sm">
             Swaponz Internship
           </h1>
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl bg-gray-200 font-bold tracking-tight text-gray-600 dark:text-white text-center hover:animate-bounce sm:text.sm">
             June 2023 - Present
           </h1>
-          <p className="font-normal text:xs  sm:text-3xl  md:text-4xl 0 lg:text-5xl bg-gray-200 text-gray-500 dark:text-gray-400 p-2 text-center">
+          <p className="font-normal text:xs sm:text-3xl  md:text-4xl 0 lg:text-3xl xl:text-4xl bg-gray-200 text-gray-500 dark:text-gray-400 p-2 text-center">
             This past summer I had the opportunity to begin an internship at a
             startup company called Swaponz. Swaponz is a phone case company that
             creates one of a kind and customizable phone cases that can be
@@ -31,7 +31,7 @@ export default function PortfolioSwaponz() {
             future positions.
           </p>
           <br></br>
-          <p className="font-normal text:xs  sm:text-3xl  md:text-4xl 0 lg:text-5xl bg-gray-200 text-gray-500 dark:text-gray-400 p-2 text-center">
+          <p className="font-normal text-sm sm:text-3xl  md:text-4xl 0 lg:text-3xl xl:text-4xl bg-gray-200 text-gray-500 dark:text-gray-400 p-2 text-center">
             As a sales and marketing intern at Swaponz, I am creatively
             promoting Swaponz products both in person and online. I lead the
             ambassador program, where I create content for social media, as well
@@ -41,7 +41,7 @@ export default function PortfolioSwaponz() {
             involved. When the opportunities arise, I then become an integral
             part of planning and conducting the event.
           </p>
-          <div className="pt-6 pb-3">
+          <div className="font-normal text-sm sm:text-2xl  md:text-2xl 0 lg:text-2xl xl:text-3xl pt-6 pb-3 justify-center flex">
             <a
               href="https://swaponz.com/"
               target="_blank"

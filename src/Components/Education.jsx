@@ -10,13 +10,13 @@ export default function Education() {
   return (
     <div className="text-gray-300 bg-slate-700 text-3xl p-12">
       <NavBar />
-      <div className="flex justify-center">
-        <Card className="w-full text-center font-bold tracking-tight bg-gray-100 text-gray-900 dark:text-white pt-12 m-6">
+      <div className="flex flex-wrap justify-center items-center">
+        <Card className="w-full text-center font-bold tracking-tight bg-gray-100 text-gray-900 dark:text-white pt-12 m-20">
           <div className="flex flex-row justify-evenly">
             <div className="flex flex-col items-center">
-              <div className="flex flex-wrap border-8 p-12 border-red-900 h-full">
+              <div className="flex flex-wrap border-8 p-12 border-red-900 h-full justify-center">
                 <img
-                  className="pr-12"
+                  className="pr-12 pb-8"
                   src={UMassIsenbergLogoI}
                   alt="Isenberg-Logo"
                 />
