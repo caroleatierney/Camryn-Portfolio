@@ -10,7 +10,7 @@ export default function PortfolioSwaponz() {
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl bg-gray-200 font-bold tracking-tight text-gray-600 dark:text-white text-center hover:animate-bounce">
             Swaponz Internship | June 2023 - Present
           </h1>
-          <p className="font-normal text:xs sm:text-3xl md:text-4xl 0 lg:text-3xl xl:text-4xl bg-gray-200 text-gray-500 dark:text-gray-400 p-2 text-justify xl:text-center">
+          <p className="font-normal text:xs sm:text-xs md:text-4xl 0 lg:text-3xl xl:text-4xl bg-gray-200 text-gray-500 dark:text-gray-400 p-2 text-justify xl:text-center">
             This past summer I had the opportunity to begin an internship at a
             startup company called Swaponz. Swaponz is a phone case company that
             creates one of a kind and customizable phone cases that can be

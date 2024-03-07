@@ -19,7 +19,7 @@ export default function About() {
           <h1 className="bg-gray-200 font-bold  text-center hover:animate-bounce sm:text.sm mb-10">
             About me
           </h1>
-          <p className="font-normal text:sm sm:text-2xl md:text-xs lg:text-3xl xl:text-4xl text-gray-500">
+          <p className="font-normal text:sm sm:text-xs md:text-xs lg:text-3xl xl:text-4xl text-gray-500">
             I am a graduate from the Isenberg School of Management at the
             University of Massachusetts Amherst. I chose to complete my degree at the Isenberg
             School of Management because of its exceptional education and strong
