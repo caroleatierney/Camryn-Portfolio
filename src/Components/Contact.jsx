@@ -1,15 +1,16 @@
-import React from 'react'
+import React from "react";
+import emailjs from "@emailjs/browser";
 import NavBar from "./NavBar";
-import { Button, Textarea, Label, TextInput } from "flowbite-react";
-import { HiMail } from "react-icons/hi";
+import EmailForm from "./EmailForm";
 import ContactCard from "../Images/Contact-Card.png";
 import QRCode from "../Images/QR-Code.png";
 
-const Contact = () => {
+export default function Contact() {
+ 
   return (
     <div>
       <NavBar />
-      <div className="grid grid-cols-3 text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl w-5/6 items-center justify-center pt-10 mx-auto bg-gray-200 text-gray-500 dark:text-gray-400 p-2 text-center mt-12 tracking-tight dark:text-white">
+      <div className="grid grid-cols-3 text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl w-5/6 items-center justify-center pt-10 mx-auto bg-gray-200 text-gray-800 dark:text-gray-400 p-2 text-center mt-12 tracking-tight dark:text-white">
         <div className="mx-auto flex flex-col justify-center">
           <h3>Virtual Contact Card</h3>
           <h6>Click contact card image to access now</h6>
@@ -26,45 +27,7 @@ const Contact = () => {
           </a>
         </div>
 
-        <div className="mx-auto flex flex-col items-center w-1/2">
-          <form className="flex w-full flex-col gap-4">
-            <h3>Send me a message</h3>
-            <div>
-              <div className="mb-2 block">
-                <Label htmlFor="fullName" value="Full Name" required />
-              </div>
-              <TextInput id="text" type="text" required />
-            </div>
-
-            <div>
-              <div className="mb-2 block">
-                <Label htmlFor="eMail" value="Email" required />
-              </div>
-              <TextInput id="email" type="email" rightIcon={HiMail} required />
-            </div>
-
-            <div>
-              <div className="mb-2 block">
-                <Label htmlFor="message" value="Message" required />
-              </div>
-              <Textarea
-                id="message"
-                type="text"
-                sizing="xl"
-                rows={8}
-                required
-              />
-            </div>
-
-            <Button type="submit" color="dark">
-              Submit
-            </Button>
-          </form>
-
-          <h1 className="text-blue-500 text-bold pt-16">TO DOS</h1>
-          <h1 className="text-red-500 text-bold">Add logic to submit email</h1>
-          <h1 className="text-red-500 text-bold">Make responsive</h1>
-        </div>
+        <EmailForm />
 
         <div className="mx-auto flex flex-col justify-center w-3/5">
           <img
@@ -73,7 +36,7 @@ const Contact = () => {
             alt="QR Code for Digital Contact Card"
           />
           <div className="flex flex-col mx-auto items-center mt-20 border-8 border-gray-400 p-7">
-            <h1 className="text-gray-600 text-bold">
+            <h1 className="text-gray-800 text-bold">
               Connect with me on LinkedIn
             </h1>
             <a
@@ -101,5 +64,3 @@ const Contact = () => {
     </div>
   );
 }
-
-export default Contact
