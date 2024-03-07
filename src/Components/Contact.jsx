@@ -63,6 +63,7 @@ const Contact = () => {
 
           <h1 className="text-blue-500 text-bold pt-16">TO DOS</h1>
           <h1 className="text-red-500 text-bold">Add logic to submit email</h1>
+          <h1 className="text-red-500 text-bold">Make responsive</h1>
         </div>
 
         <div className="mx-auto flex flex-col justify-center w-3/5">
