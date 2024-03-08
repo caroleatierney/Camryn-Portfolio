@@ -1,19 +1,22 @@
 import React, { useState } from "react";
-import { Button, Textarea, Label, TextInput } from "flowbite-react";
+import { Button, Textarea, Label, TextInput, Alert } from "flowbite-react";
 import { HiMail } from "react-icons/hi";
+import { Toast } from "flowbite-react";
+import { FaTelegramPlane } from "react-icons/fa";
 
 export default function EmailForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [successMessage, setSuccesssMessage] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
     // email service ID, template ID and Public Key
-    const serviceId = "service_d0b4xjy";
-    const templateId = "template_wrkhdfv";
-    const publicKey = "aQaPOXxtDG44Xk-7N";
+    const serviceId  = process.env.REACT_APP_SERVICE_ID;
+    const templateId = process.env.REACT_APP_TEMPLATE_ID;
+    const publicKey  = process.env.REACT_APP_PUBLIC_KEY;
 
     const templateParams = {
       from_name: name,
@@ -25,11 +28,12 @@ export default function EmailForm() {
     // send the email using EmailJS
     emailjs.send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
-        console.log("Thank you for your email.", response);
+        console.log("Message sent successfully");
         setName("");
         setMessage("");
         setEmail("");
-      })
+        setSuccesssMessage("Message sent successfully");
+        })
       .catch((error) => {
         console.log("Error sending email:", error);
       });
@@ -39,15 +43,18 @@ export default function EmailForm() {
     <div className="mx-auto flex flex-col items-center w-full">
       <form
         onSubmit={handleSubmit}
-        className="emailForm flex w-full flex-col gap-4 text-gray-800 text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-4xl"
+        className="flex w-full flex-col gap-4 text-gray-800 text:base sm:text-1xl md:text-2xl lg:text-3xl xl:text-4xl"
       >
-        <h3>Send me a message</h3>
+        <h1 className="pb-20 text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-5xl">
+          Ways to connect with me
+        </h1>
+        <h3 className="pb-10">Send me a message</h3>
         <div>
           <div>
             <Label
               htmlFor="fullName"
               value="Full Name"
-              className="text-gray-500 text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl"
+              className="text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl"
               required
             />
           </div>
@@ -55,6 +62,8 @@ export default function EmailForm() {
             id="text"
             type="text"
             name="user_name"
+            className="text-4xl"
+            size="4xl"
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
@@ -66,7 +75,7 @@ export default function EmailForm() {
             <Label
               htmlFor="eMail"
               value="Email"
-              className="text-gray-500 text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl"
+              className="text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl"
               required
             />
           </div>
@@ -75,6 +84,8 @@ export default function EmailForm() {
             type="email"
             name="user_email"
             value={email}
+            className="text-lg font-large"
+
             onChange={(e) => setEmail(e.target.value)}
             rightIcon={HiMail}
             required
@@ -87,14 +98,14 @@ export default function EmailForm() {
               htmlFor="message"
               value="Message"
               name="message"
-              className="text-gray-500 text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl"
+              className="text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl"
               required
             />
           </div>
           <Textarea
             id="message"
             type="text"
-            sizing="xl"
+            className="text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             rows={8}
@@ -102,10 +113,25 @@ export default function EmailForm() {
           />
         </div>
 
-        <Button type="submit" color="dark">
+        <Button
+          type="submit"
+          color="dark"
+          size="2xl"
+          className="text-white text:lg sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl bg-gray-500"
+        >
           Submit
         </Button>
       </form>
+      {successMessage && (
+        <div className="pt-20">
+        <Toast className="w-full max-w-xl">
+          <FaTelegramPlane className="h-20 w-20 text-cyan-600 dark:text-cyan-500" />
+          <div className="pl-4 text:lg sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl font-normal">
+            Thank you for your message. I look forward to connecting with you.
+          </div>
+        </Toast>
+        </div>
+      )}
     </div>
   );
 }
