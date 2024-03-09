@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div>
       <NavBar />
-      <div className="grid grid-cols-2 text:sm sm:text-3xl md:text-4xl lg:text-3xl xl:text-5xl w-5/6 items-center justify-center pt-10 mx-auto bg-gray-200 text-gray-500 dark:text-gray-400 p-2 text-center mt-12 tracking-tight dark:text-white">
+      <div className="grid grid-cols-2 text:sm sm:text-3xl md:text-4xl lg:text-3xl xl:text-5xl w-5/6 items-center justify-center pt-10 mx-auto bg-gray-200 text-gray-500 p-2 text-center mt-12 tracking-tight dark:text-white">
         <div>
           <img
             className="object-cover m-10 border-8 border-zinc-400"

@@ -1,6 +1,10 @@
 import React from "react";
 import App from "../App.jsx";
 import { createBrowserRouter } from "react-router-dom";
+// import { ErrorBoundary } from "react-error-boundary";
+
+
+// import ErrorFallback from "../Components/Contact";
 
 import About                  from "../Components/About.jsx";
 import Header                 from "../Components/Header";
@@ -13,11 +17,21 @@ import PortfolioEventProposal from "../Components/PortfolioEventProposal";
 export const router = createBrowserRouter([
   { path: "/", element: <App /> },
   { path: "/camryn-portfolio", element: <App /> },
-  { path: "/header", element: <Header /> },
-  { path: "/about", element: <About /> },
-  { path: "/footer", element: <Footer /> },
-  { path: "/education", element: <Education /> },
-  { path: "/contact", element: <Contact /> },
+  { path: "/header",           element: <Header /> },
+  { path: "/about",            element: <About /> },
+  { path: "/footer",           element: <Footer /> },
+  { path: "/education",        element: <Education /> },
+  { path: "/contact",          element: <Contact />},
+
+//   { path: "/contact", element:
+//    (
+//       <ErrorBoundary FallbackComponent={<Contact />}>
+//         <Contact />
+//       </ErrorBoundary>
+//      )
+// },
+
+
   { path: "/portfolioSwaponz", element: <PortfolioSwaponz /> },
   { path: "/portfolioEventProposal", element: <PortfolioEventProposal /> },
 ]);

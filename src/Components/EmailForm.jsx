@@ -40,15 +40,12 @@ export default function EmailForm() {
   };
 
   return (
-    <div className="mx-auto flex flex-col items-center w-full">
+    <div  className="flex flex-col">
       <form
         onSubmit={handleSubmit}
-        className="flex w-full flex-col gap-4 text-gray-800 text:base sm:text-1xl md:text-2xl lg:text-3xl xl:text-4xl"
+        className="flex flex-col align-top gap-4 text-gray-800 text:base sm:text-1xl md:text-2xl lg:text-3xl xl:text-4xl"
       >
-        <h1 className="pb-20 text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-5xl">
-          Ways to connect with me
-        </h1>
-        <h3 className="pb-10">Send me a message</h3>
+        <h3 className="pb-5">Send me a message</h3>
         <div>
           <div>
             <Label
@@ -85,7 +82,6 @@ export default function EmailForm() {
             name="user_email"
             value={email}
             className="text-lg font-large"
-
             onChange={(e) => setEmail(e.target.value)}
             rightIcon={HiMail}
             required
@@ -123,13 +119,13 @@ export default function EmailForm() {
         </Button>
       </form>
       {successMessage && (
-        <div className="pt-20">
-        <Toast className="w-full max-w-xl">
-          <FaTelegramPlane className="h-20 w-20 text-cyan-600 dark:text-cyan-500" />
-          <div className="pl-4 text:lg sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl font-normal">
-            Thank you for your message. I look forward to connecting with you.
-          </div>
-        </Toast>
+        <div className="flex pt-10 justify-center">
+          <Toast className="w-full max-w-xl">
+            <FaTelegramPlane className="h-20 w-20 text-cyan-600 dark:text-cyan-500" />
+            <div className="pl-4 text:lg sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl font-normal">
+              Thank you for your message. I look forward to connecting with you.
+            </div>
+          </Toast>
         </div>
       )}
     </div>
