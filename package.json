@@ -1,12 +1,12 @@
 {
-  "homepage": "https://caroleatierney.github.io/Camryn-Portfolio",
+  "homepage": "https://caroleatierney.github.io/Camryn-Portfolio/",
   "name": "camryn-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --outDir build",
+    "build": "vite build --outDir build --base=/Camryn-Portfolio/",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build  && dotenv eject",
