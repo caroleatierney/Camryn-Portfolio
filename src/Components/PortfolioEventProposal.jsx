@@ -22,11 +22,14 @@ import Page17 from "../Images/Buonacore-Camryn-Bridal-Shower-Brunch-Event-Propos
 
 export default function PortfolioEventProposal() {
   return (
-    <div className="m-6">
+    <div className="bg-webPageBackground">
       <NavBar />
       <div>
         <h1 className="text-3xl pb-8 w-1/2 text-center tracking-tight text-gray-300 dark:text-white mx-auto">
-          This is a sample event proposal I created in one of my college courses to gain real hands on experience in special events management. I decided to plan a Bridal Shower and was in charge of everything from theme and design, to budget, to venue and location.
+          This is a sample event proposal I created in one of my college courses
+          to gain real hands on experience in special events management. I
+          decided to plan a Bridal Shower and was in charge of everything from
+          theme and design, to budget, to venue and location.
         </h1>
       </div>
       <div className="h-[66rem] w-1/3 justify-center items-center mx-auto">

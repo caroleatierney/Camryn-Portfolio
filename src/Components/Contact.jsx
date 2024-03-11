@@ -6,9 +6,9 @@ import QRCode from "../Images/QR-Code.png";
 
 export default function Contact() {
   return (
-    <div>
+    <div className="bg-webPageBackground">
       <NavBar />
-      <div className="text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-5xl w-5/6 items-center justify-center pt-10 mx-auto bg-gray-200 text-gray-800 text-center">
+      <div className="text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-5xl w-5/6 items-center justify-center pt-10 mt-10 mx-auto bg-gray-200 text-gray-800 text-center">
         <h1>Ways to connect with me</h1>
       </div>
       <div className="grid grid-cols-3 text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-4xl w-5/6 items-center justify-center pt-10 mx-auto bg-gray-200 text-gray-800 text-center tracking-tight dark:text-white">
@@ -39,7 +39,7 @@ export default function Contact() {
             />
             <div className="flex flex-col mx-auto items-center mt-20 border-8 border-gray-400 p-7">
               <h1 className="text-gray-800 text-bold text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl">
-                Connect with me on LinkedIn
+                Click to connect on LinkedIn
               </h1>
               <a
                 href="https://www.linkedin.com/in/camryn-buonacore/"

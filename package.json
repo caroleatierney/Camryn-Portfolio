@@ -9,7 +9,7 @@
     "build": "vite build --outDir build --base=/Camryn-Portfolio/",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "npm run build  && dotenv eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
