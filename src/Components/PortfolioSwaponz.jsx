@@ -3,11 +3,11 @@ import NavBar from "./NavBar";
 import { Card } from "flowbite-react";
 export default function PortfolioSwaponz() {
   return (
-    <div className="bg-webPageBackground text-darkGrayText">
+    <div className="bg-webPageBackground text-mediumGrayText">
       <NavBar />
-      {/* <div className="w-screen flex flex-col items-center justify-center pt-10"> */}
-      <Card className="bg-backgroundGray 9-12 w-5/6 md:w-3/4 lg:w-3/4 xl:w-5/6 mx-auto md:p-10">
-        <div className="text-md sm:text-2xl md:text-4xl lg:text-4xl xl:text-5xl font-bold tracking-tight dark:text-white text-center flex flex-col md:flex-row justify-center">
+      <div className="w-screen flex justify-center pt-10">
+      <Card className="bg-backgroundGray w-5/6 md:w-3/4 lg:w-3/4 xl:w-5/6 mx-auto md:p-10 md:m-20">
+        <div className="text-sm sm:text-2xl md:text-5xl font-bold tracking-tight dark:text-white text-center flex flex-col md:flex-row justify-center text-darkGrayText">
           <div>
             <h1>Swaponz Internship</h1>
           </div>
@@ -19,7 +19,7 @@ export default function PortfolioSwaponz() {
           </div>
         </div>
 
-        <div className="text:xs sm:text-xs md:text-4xl lg:text-3xl xl:text-4xl md:text-justify text-center">
+        <div className="text:xs sm:text-xs md:text-4xl lg:text-3xl xl:text-4xl md:text-justify text-center text-mediumGrayText pt-10">
           <p className="pb-6">
             This past summer I had the opportunity to begin an internship at a
             startup company called Swaponz. Swaponz is a phone case company that
@@ -58,7 +58,7 @@ export default function PortfolioSwaponz() {
           </a>
         </div>
       </Card>
-      {/* </div> */}
+      </div>
     </div>
   );
 }

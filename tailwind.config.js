@@ -11,9 +11,9 @@ export default {
       backgroundGray: "#e5e7eb",
       darkGrayBorder: "#a1a1aa",
       lightBorderGray: "#9ca3af",
-      mediumTextGray: "#71717a",
-      lightGrayText: "#d1d5db",
-      darkGrayText: "#a1a1aa"
+      lightGrayText: "#a1a1aa",
+      mediumGrayText: "#71717a",
+      darkGrayText: "#4b5563",
     },
     fontFamily: {
       sohne: ["SOHNE", "semibold"],

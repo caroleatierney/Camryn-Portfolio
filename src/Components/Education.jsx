@@ -8,7 +8,7 @@ import UMassIsenbergLogoName from "../Images/Isenberg-Name.png";
 
 export default function Education() {
   return (
-    <div className="text-gray-300 bg-slate-700 text-3xl">
+    <div className="text-gray-300 bg-webPageBackground text-3xl">
       <NavBar />
       <div className="flex flex-wrap justify-center items-center mx-auto p-10 w-5/6">
         <Card className="w-full text-center font-bold tracking-tight bg-gray-300 text-gray-900 dark:text-white">
