@@ -13,7 +13,7 @@ export default function Education() {
       <NavBarEdu />
       <div className="flex flex-wrap justify-center items-center mx-auto p-6 w-5/6">
         <Card className="text-xxs sm:text-sm md:text-lg md:text-sm lg:text-4xl xl:text-3xl w-full text-center font-normal tracking-tight bg-gray-300 text-gray-900 dark:text-white">
-          <div className="flex flex-col justify-evenly w-7/8">
+          <div className="flex flex-col lg:flex-row xl:flex-row justify-evenly w-7/8">
             <div className="flex flex-col items-center mx-auto w-1/2">
               <div className="border-4 border-uMassRed bg-gray-200 p-3 m-6 flex flex-wrap items-center w-full">
                 <img

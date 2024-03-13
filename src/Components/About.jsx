@@ -8,10 +8,10 @@ export default function About() {
     <div className="bg-webPageBackground text-mediumGrayText">
       <NavBar />
       <div
-        className="text:sm sm:text-sm md:text-lg text:sm md:text-xs lg:text-lg xl:text-3xl w-5/6 text-center items-center justify-center mx-auto bg-backgroundGray p-2 mt-12 tracking-tight dark:text-white flex flex-col md:flex-row lg:flex-row mb-20
-      
-          text-red-500 sm:text-purple-500 md:text-orange-700  lg:text-blue-500 xl:text-green-500"
+        className="text:sm sm:text-sm md:text-lg text:sm md:text-xs lg:text-lg xl:text-3xl w-5/6 text-center items-center justify-center mx-auto bg-backgroundGray p-2 mt-12 tracking-tight dark:text-white flex flex-col md:flex-row lg:flex-row mb-20"
       >
+      
+          {/* text-red-500 sm:text-purple-500 md:text-orange-700  lg:text-blue-500 xl:text-green-500" */}
         <div className="md:p-8 md:w-1/2 lg:w-1/2">
           <img
             className="object-cover border-8 border-darkGrayBorder m-10 lg:m-0 mx-0"

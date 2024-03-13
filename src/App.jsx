@@ -15,7 +15,7 @@ export default function App() {
             University of Massachusetts Amherst. I have a passion for Marketing,
             Sales and Event Planning.
           </p>
-          <h1 className="text-xs mt-10 m-10 text-red-600 bg-backgroundGray">
+          <h1 className="text-xs lg:text-2xl mt-10 m-10 text-red-600 bg-backgroundGray">
             Camryn - I am hoping to add some images for marketing sales and
             event planning with some animation moving across the screen I could
             also remove this page entirely and have the home page be the about

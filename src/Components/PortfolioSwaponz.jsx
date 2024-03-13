@@ -5,10 +5,9 @@ export default function PortfolioSwaponz() {
   return (
     <div className="bg-webPageBackground text-mediumGrayText">
       <NavBar />
-      <div
-        className="w-screen flex justify-center pt-5 text:sm sm:text-sm md:text-lg lg:text-xl xl:text-2xl         
-            text-red-500 sm:text-purple-500 md:text-orange-700 lg:text-blue-500 xl:text-green-500"
-      >
+      <div className="w-screen flex justify-center pt-5 text:sm sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
+        {/* text-red-500 sm:text-purple-500 md:text-orange-700 lg:text-blue-500 xl:text-green-500 */}
+        
         <Card className="bg-backgroundGray w-5/6 md:w-5/6 lg:w-3/4 xl:w-5/6 mx-auto md:p-2 md:m-2">
           <div className="sm:text-sm md:text-2xl lg:text-3xl font-bold tracking-tight dark:text-white text-center flex flex-col md:flex-row justify-center">
             {/* text-darkGrayText */}
