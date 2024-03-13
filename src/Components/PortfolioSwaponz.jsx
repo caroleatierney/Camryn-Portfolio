@@ -10,7 +10,6 @@ export default function PortfolioSwaponz() {
         
         <Card className="bg-backgroundGray w-5/6 md:w-5/6 lg:w-3/4 xl:w-5/6 mx-auto md:p-2 md:m-2">
           <div className="sm:text-sm md:text-2xl lg:text-3xl font-bold tracking-tight dark:text-white text-center flex flex-col md:flex-row justify-center">
-            {/* text-darkGrayText */}
             <div>
               <h1>Swaponz Internship</h1>
             </div>
