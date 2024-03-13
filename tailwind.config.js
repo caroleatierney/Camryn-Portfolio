@@ -8,18 +8,20 @@ export default {
   theme: {
     colors: {
       webPageBackground: "#334155",
-      backgroundGray: "#e5e7eb",
-      darkGrayBorder: "#a1a1aa",
-      lightBorderGray: "#9ca3af",
-      lightGrayText: "#a1a1aa",
-      mediumGrayText: "#71717a",
-      darkGrayText: "#4b5563",
+      backgroundGray:    "#e5e7eb",
+      darkGrayBorder:    "#a1a1aa",
+      lightBorderGray:   "#9ca3af",
+      lightGrayText:     "#a1a1aa",
+      mediumGrayText:    "#71717a",
+      darkGrayText:      "#4b5563",
+      UMassRed:          "881c1c",
     },
     fontFamily: {
       sohne: ["SOHNE", "semibold"],
       serif: ["ui-serif", "Georgia"],
     },
     fontSize: {
+      xxs: "0.55rem",
       xs: "0.75rem",
       sm: "0.875rem",
       base: "1rem",

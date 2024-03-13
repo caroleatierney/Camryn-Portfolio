@@ -6,7 +6,7 @@ import NavBar from './Components/NavBar';
 export default function App() {
   return (
     <>
-      <div className="bg-webPageBackground min-height: 100vh">
+      <div className="bg-webPageBackground text-mediumGrayText">
         <NavBar />
         <div className="flex text-center text-lightGrayText flex-col mt-20">
           <h1 className="md:text-5xl">Hi, I'm Camryn.</h1>
