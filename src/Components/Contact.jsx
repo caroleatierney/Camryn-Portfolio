@@ -8,12 +8,13 @@ export default function Contact() {
   return (
     <div className="bg-webPageBackground">
       <NavBar />
-      <div className="text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-5xl w-5/6 items-center justify-center pt-10 mt-10 mx-auto bg-gray-200 text-gray-800 text-center">
+      <div className="text:xs sm:text-1xl md:text-2xl lg:text-3xl xl:text-5xl w-5/6 items-center justify-center py-5 mt-10 mx-auto bg-gray-200 text-gray-800 text-center font-bold">
         <h1>Ways to connect with me</h1>
       </div>
-      <div className="grid grid-cols-3 text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-4xl w-5/6 items-center justify-center pt-10 mx-auto bg-gray-200 text-gray-800 text-center tracking-tight dark:text-white">
-        <div className="mx-auto flex flex-col justify-center">
-          <h1 className="text-4xl">Click on virtual contact card</h1>
+
+      <div className="flex flex-col xl:flex-row text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-4xl items-center justify-center mx-auto bg-backgroundGray text-darkGray text-center tracking-tight dark:text-white w-5/6">
+        <div className="mx-auto flex flex-col justify-center w-1/3 px-8">
+          <h1 className="text-sm">Click on virtual contact card</h1>
           <a
             href="https://www.dibiz.com/cbuonacore"
             className="min-h-screen"
@@ -21,23 +22,23 @@ export default function Contact() {
             target="blank"
           >
             <img
-              className="m-3 object-cover border-8 border-red-900"
+              className="m-3 object-cover border-4 border-uMassRed"
               src={ContactCard}
               alt="Contact Card"
             />
           </a>
         </div>
 
-        <EmailForm />
+        <EmailForm className="w-1/3 px-2 self-start" />
 
-        <div className="mx-auto flex flex-col justify-center w-3/5">
+        <div className="mx-auto flex flex-col justify-center py-10 w-1/3 px-8">
           <div className="min-h-screen">
             <img
-              className="object-cover m-10 border-8 border-gray-400 mx-auto"
+              className="object-cover m-5 border-8 border-gray-400 mx-auto"
               src={QRCode}
               alt="QR Code for Digital Contact Card"
             />
-            <div className="flex flex-col mx-auto items-center mt-20 border-8 border-gray-400 p-7">
+            <div className="flex flex-col mx-auto items-center mt-16 border-8 border-gray-400 p-7">
               <h1 className="text-gray-800 text-bold text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl">
                 Click to connect on LinkedIn
               </h1>

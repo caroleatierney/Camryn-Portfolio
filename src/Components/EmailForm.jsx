@@ -40,18 +40,18 @@ export default function EmailForm() {
   };
 
   return (
-    <div  className="flex flex-col">
+    <div className="flex flex-col bg-backgroundGray">
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col align-top gap-4 text-gray-800 text:base sm:text-1xl md:text-2xl lg:text-3xl xl:text-4xl"
+        className="flex flex-col align-top gap-4 px-5 text-darkGrayText text:md sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl"
       >
-        <h3 className="pb-5">Send me a message</h3>
+        <h3 className="py-5 font-bold">Send me a message</h3>
         <div>
           <div>
             <Label
               htmlFor="fullName"
+              className="xl:text-2xl"
               value="Full Name"
-              className="text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl"
               required
             />
           </div>
@@ -59,8 +59,7 @@ export default function EmailForm() {
             id="text"
             type="text"
             name="user_name"
-            className="text-4xl"
-            size="4xl"
+            className="text:sm sm:text-1xl md:text-xl lg:text-xl xl:text-1xl"
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
@@ -71,8 +70,8 @@ export default function EmailForm() {
           <div className="mb-2 block">
             <Label
               htmlFor="eMail"
+              className="xl:text-2xl"
               value="Email"
-              className="text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl"
               required
             />
           </div>
@@ -80,8 +79,8 @@ export default function EmailForm() {
             id="email"
             type="email"
             name="user_email"
+            className="text:sm sm:text-1xl md:text-xl lg:text-xl xl:text-4xl"
             value={email}
-            className="text-lg font-large"
             onChange={(e) => setEmail(e.target.value)}
             rightIcon={HiMail}
             required
@@ -92,16 +91,16 @@ export default function EmailForm() {
           <div className="mb-2 block">
             <Label
               htmlFor="message"
+              className="xl:text-2xl"
               value="Message"
               name="message"
-              className="text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl"
               required
             />
           </div>
           <Textarea
             id="message"
             type="text"
-            className="text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl"
+            className="text:sm sm:text-1xl md:text-xl lg:text-xl xl:text-1xl"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             rows={8}
@@ -112,8 +111,8 @@ export default function EmailForm() {
         <Button
           type="submit"
           color="dark"
-          size="2xl"
-          className="text-white text:lg sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl bg-gray-500"
+          size="sm xl:md"
+          className="text-white bg-gray-500 xl:text-2xl"
         >
           Submit
         </Button>
