@@ -8,21 +8,24 @@ export default function Contact() {
   return (
     <div className="bg-webPageBackground">
       <NavBar />
-      <div className="text:xs sm:text-1xl md:text-2xl lg:text-3xl xl:text-5xl w-5/6 items-center justify-center py-5 mt-10 mx-auto bg-gray-200 text-gray-800 text-center font-bold">
+      <div className="text:xs sm:text-1xl md:text-2xl lg:text-3xl xl:text-5xl w-5/6 items-center justify-center py-5 pb-3 mt-5 mx-auto bg-gray-200 text-gray-800 text-center font-bold">
         <h1>Ways to connect with me</h1>
       </div>
 
-      <div className="flex flex-col xl:flex-row text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-4xl items-center justify-center mx-auto bg-backgroundGray text-darkGray text-center tracking-tight dark:text-white w-5/6">
-        <div className="mx-auto flex flex-col justify-center w-1/3 px-8">
-          <h1 className="text-sm">Click on virtual contact card</h1>
+      <div className="flex flex-col xl:flex-row text:xs sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl items-center justify-center mx-auto bg-backgroundGray text-darkGray text-center tracking-tight dark:text-white w-5/6
+      
+      
+      text-red-500 sm:text-purple-500 md:text-orange-700  lg:text-blue-500 xl:text-green-500"
+      >
+        <div className="mx-auto flex flex-col justify-center w-1/3">
+          <h1 className="pb-3">Click on virtual contact card</h1>
           <a
             href="https://www.dibiz.com/cbuonacore"
-            className="min-h-screen"
             alt="Digital Business Card"
             target="blank"
           >
             <img
-              className="m-3 object-cover border-4 border-uMassRed"
+              className="object-cover border-4 border-uMassRed"
               src={ContactCard}
               alt="Contact Card"
             />
