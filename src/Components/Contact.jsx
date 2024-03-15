@@ -12,13 +12,16 @@ export default function Contact() {
         <h1>Ways to connect with me</h1>
       </div>
 
-      <div className="flex flex-col xl:flex-row text:xs sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl items-center justify-center mx-auto bg-backgroundGray text-darkGray text-center tracking-tight dark:text-white w-5/6
-      
-      
-      text-red-500 sm:text-purple-500 md:text-orange-700  lg:text-blue-500 xl:text-green-500"
-      >
-        <div className="mx-auto flex flex-col justify-center w-1/3">
-          <h1 className="pb-3">Click on virtual contact card</h1>
+      <div className="flex flex-col xl:flex-row text:xs sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl items-center justify-center mx-auto bg-backgroundGray text-darkGray text-center tracking-tight dark:text-white w-5/6">
+        <div className="mx-auto flex flex-col justify-center w-3/4">
+          <h1
+            className="pb-3
+          
+                text-red-500 sm:text-purple-500 md:text-pink-500  lg:text-blue-500 xl:text-green-500"
+          >
+            Click on virtual contact card
+          </h1>
+
           <a
             href="https://www.dibiz.com/cbuonacore"
             alt="Digital Business Card"
@@ -32,25 +35,25 @@ export default function Contact() {
           </a>
         </div>
 
-        <EmailForm className="w-1/3 px-2 self-start" />
+        <EmailForm className="w-3/4 px-2 self-start" />
 
-        <div className="mx-auto flex flex-col justify-center py-10 w-1/3 px-8">
+        <div className="mx-auto flex flex-col justify-center py-10 w-3/4 px-8">
           <div className="min-h-screen">
             <img
               className="object-cover m-5 border-8 border-gray-400 mx-auto"
               src={QRCode}
               alt="QR Code for Digital Contact Card"
             />
-            <div className="flex flex-col mx-auto items-center mt-16 border-8 border-gray-400 p-7">
-              <h1 className="text-gray-800 text-bold text:sm sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl">
-                Click to connect on LinkedIn
+            <div className="flex flex-col mx-auto items-center mt-16 border-8 border-gray-400 p-7 lg:w-[500px] lg:h-[500px]">
+              <h1 className="text-gray-800 font-bold text:xl sm:text-1xl md:text-3xl lg:text-5xl xl:text-3xl">
+                Click to connect
               </h1>
               <a
                 href="https://www.linkedin.com/in/camryn-buonacore/"
                 target="none"
               >
                 <svg
-                  className="w-[130px] h-[130px] text-blue-600 dark:text-white"
+                  className="w-[230px] h-[230px] lg:w-[300px] lg:h-[300px] text-blue-600 dark:text-white object-scale-down"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"

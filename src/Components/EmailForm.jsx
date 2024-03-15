@@ -40,7 +40,7 @@ export default function EmailForm() {
   };
 
   return (
-    <div className="flex flex-col bg-backgroundGray">
+    <div className="flex flex-col bg-backgroundGray w-5/6">
       <form
         onSubmit={handleSubmit}
         className="flex flex-col align-top gap-4 px-5 text-darkGrayText text:md sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl"
