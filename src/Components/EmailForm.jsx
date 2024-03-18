@@ -40,12 +40,12 @@ export default function EmailForm() {
   };
 
   return (
-    <div className="flex flex-col bg-backgroundGray w-5/6">
+    <div className="flex flex-col bg-backgroundGray w-full pt-10">
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col align-top gap-4 px-5 text-darkGrayText text:md sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl"
+        className="flex flex-col align-top gap-4 px-5 text-darkGrayText text:md sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl w-4/5 mx-auto"
       >
-        <h3 className="py-5 font-bold">Send me a message</h3>
+        <h3 className="font-bold">Send me a message</h3>
         <div>
           <div>
             <Label

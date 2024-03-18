@@ -39,6 +39,19 @@ export default {
       "8xl": "4.441rem",
       "9xl": "5.052rem",
     },
+    screens: {
+      // tablet: "640px",
+      // => @media (min-width: 640px) { ... }
+
+      tablet: "768px",
+      // => @media (min-width: 640px) { ... }
+
+      laptop: "1024px",
+      // => @media (min-width: 1024px) { ... }
+
+      desktop: "1280px",
+      // => @media (min-width: 1280px) { ... }
+    },
   },
   base: "/Camryn-Portfolio/",
   plugins: [require("flowbite/plugin")],
