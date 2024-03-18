@@ -46,7 +46,7 @@ export default function Contact() {
               alt="QR Code for Digital Contact Card"
             />
             <div className="flex flex-col mx-auto items-center border-8 border-lightBorderGray mt-10 bg-white w-2/3">
-              <h1 className="mt-5 font-bold text-5xl sm:text-1xl tablet:text-3xl md:text-3xl md:p-1 lg:text-5xl xl:text-3xl">
+              <h1 className="mt-5 font-bold text-xs sm:text-1xl tablet:text-3xl md:text-3xl md:p-1 lg:text-5xl xl:text-3xl">
                 Click to connect
               </h1>
               <div>
