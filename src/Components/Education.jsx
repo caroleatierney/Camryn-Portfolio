@@ -16,7 +16,7 @@ export default function Education() {
         <Card className="w-full text-center bg-gray-300 text-gray-900 dark:text-white largeScreen:p-10">
           <div className="flex flex-col desktop:flex-row largeScreen:flex-row justify-evenly w-7/8">
             <div className="flex flex-col items-center mx-auto w-1/2 pb-5 laptop:pb-0">
-              <div className="border-4 border-uMassRed bg-gray-200 flex flex-wrap items-center w-full laptop:p-5 laptop:mb-5 tablet:mr-3 laptop:mr-0 desktop:mr-3 largeScreen:p-10 min-h-full min-w-full">
+              <div className="border-4 border-uMassRed bg-gray-200 flex flex-wrap items-center w-full laptop:p-5 laptop:mb-5 tablet:mr-3 laptop:mr-0 desktop:mr-3 largeScreen:p-5 min-h-full min-w-full">
                 <img
                   className="object-scale-down max-h-full drop-shadow-md m-auto p-2 largeScreen:p-0 laptop:p-12 h-50 w-50"
                   src={UMassIsenbergLogoI}
@@ -37,15 +37,15 @@ export default function Education() {
                   alt="UMass-Logo"
                 />
                 <span
-                  className="flex flex-col leading-loose font-serif mx-auto text-xxs laptop:text-xl desktop:text-2xl largeScreen:text-3xl items-center justify-center desktop:pt-3
-              
+                  className="flex flex-col leading-loose font-serif mx-auto text-xxs laptop:text-xl desktop:text-2xl largeScreen:text-3xl items-center justify-center desktop:pt-3">
+                  <p
+                    className="font-bold
                 text-orange-500
                 tablet:text-purple-500
                 laptop:text-pink-500
                 desktop:text-blue-500
                 largeScreen:text-green-500"
-                >
-                  <p className="font-bold">
+                  >
                     Bachelor of Business Administration
                   </p>
                   <p>Marketing</p>
