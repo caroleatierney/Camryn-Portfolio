@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 import { Carousel } from "flowbite-react";
 
 import Page1  from "../Images/Buonacore-Camryn-Bridal-Shower-Brunch-Event-Proposal/Page-1.jpg"
@@ -53,6 +54,7 @@ export default function PortfolioEventProposal() {
           <img src={Page17} alt="Page 17" />
         </Carousel>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 import EmailForm from "./EmailForm";
 import ContactCard from "../Images/Contact-Card.png";
 import QRCode from "../Images/QR-Code.png";
@@ -80,6 +81,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

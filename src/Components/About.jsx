@@ -1,6 +1,7 @@
 import React from "react";
 import { Card } from "flowbite-react";
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 import CamrynHeadshot from "../Images/Camryn-Headshot.jpg";
 
 export default function About() {
@@ -15,7 +16,8 @@ export default function About() {
                 laptop:text-pink-500
                 desktop:text-blue-500
                 largeScreen:text-green-500
-      ">
+      "
+      >
         <div className="p-4 md:p-8 w-1/2">
           <img
             className="object-cover border-8 border-darkGrayBorder mx-0"
@@ -40,6 +42,7 @@ export default function About() {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
