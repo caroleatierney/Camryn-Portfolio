@@ -6,19 +6,29 @@ import { Dropdown } from "flowbite-react";
 
 const customTheme = {
   inlineWrapper:
-    "text-slate-200 bg-slate-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-small rounded-lg text-xs lg:text-xl xl:text-2xl px-0 py-0 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800",
+    "text-slate-200 bg-slate-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-small rounded-lg text-xs desktop:text-xl largeScreen:text-2xl px-0 py-0 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800",
 };
 
 export default function NavBar() {
   return (
-    <div className="bg-webPageBackground flex xs:flex-wrap md:flex-row p-3 md:text-md lg:text-xl xl:text-2xl lg:flex-row flex-col justify:center lg:justify-evenly text-xs text-lightGrayText items-center">
-      <div className="flex flex-row items-center space-x-4 rtl:space-x-reverse md:w-5/12 lg:w-3/12">
+    <div className="bg-webPageBackground flex xs:flex-wrap laptop:flex-row p-3 laptop:text-md desktop:text-xl largeScreen:text-2xl desktop:flex-row flex-col justify:center desktop:justify-evenly text-xs text-lightGrayText items-center">
+      <div className="flex flex-row items-center space-x-4 rtl:space-x-reverse laptop:w-5/12 desktop:w-3/12">
         <img src={CamrynLogo} className="w-1/5 h-1/5" alt="CB Logo" />
-        <span className="self-center text-xl md:text-md lg:text-2xl lg:flex lg:justify-left xl:text-3xl dark:text-white xs:p-7">
+        <span
+          className="self-center text-xl laptop:text-md desktop:text-2xl desktop:flex desktop:justify-left largeScreen:text-3xl dark:text-white xs:p-7
+        
+                text-orange-500
+                tablet:text-purple-500
+                laptop:text-pink-500
+                desktop:text-blue-500
+                largeScreen:text-green-500
+                
+                "
+        >
           CAMRYN BUONACORE
         </span>
       </div>
-      <div className="flex flex-col md:flex-row lg:flex-row justify-evenly md:w-9/12 lg:w-7/12">
+      <div className="flex flex-col laptop:flex-row desktop:flex-row justify-evenly desktop:w-9/12 largeScreen:w-7/12">
         <div>
           <Link to="/Camryn-Portfolio">Home</Link>
         </div>

@@ -51,6 +51,9 @@ export default {
 
       desktop: "1280px",
       // => @media (min-width: 1280px) { ... }
+
+      largeScreen: "1536px",
+      // => @media (min-width: 1536px) { ... }
     },
   },
   base: "/Camryn-Portfolio/",
