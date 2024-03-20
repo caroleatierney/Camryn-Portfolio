@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
-import { Carousel } from "flowbite-react";
+import { Carousel} from "flowbite-react";
 
 import Page1  from "../Images/Buonacore-Camryn-Bridal-Shower-Brunch-Event-Proposal/Page-1.jpg"
 import Page2  from "../Images/Buonacore-Camryn-Bridal-Shower-Brunch-Event-Proposal/Page-2.jpg";
@@ -26,15 +26,15 @@ export default function PortfolioEventProposal() {
     <div className="bg-webPageBackground">
       <NavBar />
       <div>
-        <h1 className="text-3xl pb-8 w-1/2 text-center tracking-tight text-gray-300 dark:text-white mx-auto">
+        <h1 className="text-md largeScreen:text-2xl text-center tracking-tight text-gray-300 dark:text-white mx-auto">
           This is a sample event proposal I created in one of my college courses
           to gain real hands on experience in special events management. I
           decided to plan a Bridal Shower and was in charge of everything from
           theme and design, to budget, to venue and location.
         </h1>
       </div>
-      <div className="h-[66rem] w-1/3 justify-center items-center mx-auto">
-        <Carousel>
+      <div className="h-[20rem] w-1/3 justify-center items-center mx-auto">
+        <Carousel pauseOnHover>
           <img src={Page1} alt="Page 1" />
           <img src={Page2} alt="Page 2" />
           <img src={Page3} alt="Page 3" />

@@ -6,23 +6,20 @@ export default function PortfolioSwaponz() {
   return (
     <div className="bg-webPageBackground text-mediumGrayText">
       <NavBar />
-      <div className="w-screen flex justify-center pt-5 text:sm sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
-        {/* text-red-500 sm:text-purple-500 md:text-orange-700 lg:text-blue-500 xl:text-green-500 */}
-
-        <Card className="bg-backgroundGray w-5/6 md:w-5/6 lg:w-3/4 xl:w-5/6 mx-auto md:p-2 md:m-2">
-          <div className="sm:text-sm md:text-2xl lg:text-3xl font-bold tracking-tight dark:text-white text-center flex flex-col md:flex-row justify-center">
+      <div className="w-screen flex justify-center pt-5 text-lg tablet:text-md laptop:text-lg desktop:text-xl largeScreen:text-2xl">
+        <Card className="bg-backgroundGray w-5/6 laptop:w-5/6 desktop:w-3/4 largeScreen:w-5/6 mx-auto md:p-2 md:m-2">
+          <div className="text-xl tablet:text-xl laptop:text-2xl desktop:text-3xl font-bold tracking-tight dark:text-white text-center flex flex-col tablet:flex-row justify-center">
             <div>
               <h1>Swaponz Internship</h1>
             </div>
-            <div className="invisible md:visible px-5">
+            <div className="invisible tablet:visible laptop:visible px-5">
               <h1>|</h1>
             </div>
             <div>
               <h1>June 2023 - Present</h1>
             </div>
           </div>
-          {/* text-mediumGrayText */}
-          <div className="md:text-justify text-center pt-5">
+          <div className="laptop:text-justify text-center pt-5">
             <p className="pb-6">
               This past summer I had the opportunity to begin an internship at a
               startup company called Swaponz. Swaponz is a phone case company
