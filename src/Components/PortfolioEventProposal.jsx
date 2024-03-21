@@ -25,16 +25,16 @@ export default function PortfolioEventProposal() {
   return (
     <div className="bg-webPageBackground">
       <NavBar />
-      <div>
-        <h1 className="text-md largeScreen:text-2xl text-center tracking-tight text-gray-300 dark:text-white mx-auto">
+      <div className="w-2/3 mx-auto p-5">
+        <h1 className="text-xs desktop:text-xl largeScreen:text-2xl text-center tracking-tight text-gray-300 dark:text-white mx-auto">
           This is a sample event proposal I created in one of my college courses
           to gain real hands on experience in special events management. I
           decided to plan a Bridal Shower and was in charge of everything from
           theme and design, to budget, to venue and location.
         </h1>
       </div>
-      <div className="h-[20rem] w-1/3 justify-center items-center mx-auto">
-        <Carousel pauseOnHover>
+      <div className="w-1/3 mx-auto h-screen">
+        <Carousel pauseOnHover min-height="10vh">
           <img src={Page1} alt="Page 1" />
           <img src={Page2} alt="Page 2" />
           <img src={Page3} alt="Page 3" />
