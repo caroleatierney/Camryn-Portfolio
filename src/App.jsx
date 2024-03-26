@@ -13,8 +13,7 @@ export default function App() {
           <h1 className="md:text-5xl">Hi, I'm Camryn.</h1>
           <p className="md:text-3xl mt-10">
             I am a graduate from the Isenberg School of Management at the
-            University of Massachusetts Amherst. I have a passion for Marketing,
-            Sales and Event Planning.
+            University of Massachusetts Amherst. I have a passion for Marketing, Sales and Event Planning.
           </p>
           <h1 className="text-xs lg:text-2xl mt-10 m-10 text-yellow-600 bg-backgroundGray">
             Camryn - I am hoping to add some images for marketing sales and

@@ -1,5 +1,5 @@
 import React from "react";
-import App from "../App.jsx";
+// import App from "../App.jsx";
 import About from "../Components/About.jsx";
 import Footer from "../Components/Footer";
 import Education from "../Components/Education";
@@ -13,19 +13,33 @@ import.meta.env.BASE_URL;
 // import ErrorFallback from "../Components/Contact";
 
 export const router = createBrowserRouter([
-  { path: "/", element: <App />, errorElement: <ErrorPage /> },
-  { path: "/Camryn-Portfolio", element: <App />, errorElement: <ErrorPage /> },
-  { path: "/about", element: <About />, errorElement: <ErrorPage /> },
-  { path: "/footer", element: <Footer />, errorElement: <ErrorPage /> },
-  { path: "/education", element: <Education />, errorElement: <ErrorPage /> },
-  { path: "/contact", element: <Contact />, errorElement: <ErrorPage /> },
   {
-    path: "/portfolioSwaponz",
+    path: "/Camryn-Portfolio/about",
+    element: <About />,
+    errorElement: <ErrorPage />,
+  },
+  // {
+  //   path: "/Camryn-Portfolio/footer",
+  //   element: <Footer />,
+  //   errorElement: <ErrorPage />,
+  // },
+  {
+    path: "/Camryn-Portfolio/education",
+    element: <Education />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/Camryn-Portfolio/contact",
+    element: <Contact />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/Camryn-Portfolio/portfolioSwaponz",
     element: <PortfolioSwaponz />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/portfolioEventProposal",
+    path: "/Camryn-Portfolio/portfolioEventProposal",
     element: <PortfolioEventProposal />,
     errorElement: <ErrorPage />,
   },

@@ -33,25 +33,63 @@ export default function PortfolioEventProposal() {
           theme and design, to budget, to venue and location.
         </h1>
       </div>
-      <div className="w-1/3 mx-auto h-screen">
-        <Carousel pauseOnHover min-height="10vh">
-          <img src={Page1} alt="Page 1" />
-          <img src={Page2} alt="Page 2" />
-          <img src={Page3} alt="Page 3" />
-          <img src={Page4} alt="Page 4" />
-          <img src={Page5} alt="Page 5" />
-          <img src={Page6} alt="Page 6" />
-          <img src={Page7} alt="Page 7" />
-          <img src={Page8} alt="Page 8" />
-          <img src={Page9} alt="Page 9" />
-          <img src={Page10} alt="Page 10" />
-          <img src={Page11} alt="Page 11" />
-          <img src={Page12} alt="Page 12" />
-          <img src={Page13} alt="Page 13" />
-          <img src={Page14} alt="Page 14" />
-          <img src={Page15} alt="Page 15" />
-          <img src={Page16} alt="Page 16" />
-          <img src={Page17} alt="Page 17" />
+      {/* <div className="w-1/3 mx-auto h-full"> */}
+      {/* <div className="w-1/3 mx-auto h-screen"> */}
+      <div className="h- sm:h-64 xl:h-80 2xl:h-96">
+        {/* <div className="w-1/3 mx-auto"> */}
+        {/* <Carousel pauseOnHover tablet-carousel-container> */}
+        <Carousel pauseOnHover>
+          <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
+            <img src={Page1} alt="Page 1" />
+          </div>
+          <div className="h-full w-full object-cover">
+            <img src={Page2} alt="Page 2" />
+          </div>
+          <div className="h-full w-full object-cover">
+            <img src={Page3} alt="Page 3" />
+          </div>
+          <div className="h-full w-full object-cover">
+            <img src={Page4} alt="Page 4" />
+          </div>
+          <div className="h-full w-full object-cover">
+            <img src={Page5} alt="Page 5" />
+          </div>
+          <div className="h-full w-full object-cover">
+            <img src={Page6} alt="Page 6" />
+          </div>
+          <div className="h-full w-full object-cover">
+            <img src={Page7} alt="Page 7" />
+          </div>
+          <div className="h-full w-full object-cover">
+            <img src={Page8} alt="Page 8" />
+          </div>
+          <div className="h-full w-full object-cover">
+            <img src={Page9} alt="Page 9" />
+          </div>
+          <div className="h-full w-full object-cover">
+            <img src={Page10} alt="Page 10" />
+          </div>
+          <div className="h-full w-full object-cover">
+            <img src={Page11} alt="Page 11" />
+          </div>
+          <div className="h-full w-full object-cover">
+            <img src={Page12} alt="Page 12" />
+          </div>
+          <div className="h-full w-full object-cover">
+            <img src={Page13} alt="Page 13" />
+          </div>
+          <div className="h-full w-full object-cover">
+            <img src={Page14} alt="Page 14" />
+          </div>
+          <div className="h-full w-full object-cover">
+            <img src={Page15} alt="Page 15" />
+          </div>
+          <div className="h-full w-full object-cover">
+            <img src={Page16} alt="Page 16" />
+          </div>
+          <div className="h-full w-full object-cover">
+            <img src={Page17} alt="Page 17" />
+          </div>
         </Carousel>
       </div>
       <Footer />

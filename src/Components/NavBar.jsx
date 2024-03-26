@@ -29,14 +29,14 @@ export default function NavBar() {
         </span>
       </div>
       <div className="flex flex-col pl-12 tablet:flex-row w-1/2 tablet:w-3/4 laptop:flex-row laptop:w-3/4 desktop:flex-row desktop:w-9/12 largeScreen:w-7/12 justify-evenly">
-        <div>
+        {/* <div>
           <Link to="/Camryn-Portfolio">Home</Link>
+        </div> */}
+        <div>
+          <Link to="/Camryn-Portfolio/about">About</Link>
         </div>
         <div>
-          <Link to="/about">About</Link>
-        </div>
-        <div>
-          <Link to="/education">Education</Link>
+          <Link to="/Camryn-Portfolio/education">Education</Link>
         </div>
 
         <div>
@@ -48,15 +48,19 @@ export default function NavBar() {
             dismissOnClick={false}
           >
             <Dropdown.Item>
-              <Link to="/portfolioSwaponz">PortfolioSwaponz</Link>
+              <Link to="/Camryn-Portfolio/portfolioSwaponz">
+                PortfolioSwaponz
+              </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-              <Link to="/portfolioEventProposal">PortfolioEventProposal</Link>
+              <Link to="/Camryn-Portfolio/portfolioEventProposal">
+                PortfolioEventProposal
+              </Link>
             </Dropdown.Item>
           </Dropdown>
         </div>
         <div>
-          <Link to="/contact">Contact</Link>
+          <Link to="/Camryn-Portfolio/contact">Contact</Link>
         </div>
       </div>
     </div>

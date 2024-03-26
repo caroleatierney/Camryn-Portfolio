@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* src/styles/tailwind.css */
+@media (max-width: 768px) { /* Adjust media query as needed */
+  .tablet-carousel-container {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
