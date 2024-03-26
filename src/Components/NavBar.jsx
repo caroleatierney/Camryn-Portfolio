@@ -17,11 +17,7 @@ export default function NavBar() {
         <span
           className="self-center text-xl laptop:text-2xl desktop:text-2xl desktop:flex desktop:justify-left largeScreen:text-3xl dark:text-white xs:p-7
         
-                text-orange-500
-                tablet:text-purple-500
-                laptop:text-pink-500
-                desktop:text-blue-500
-                largeScreen:text-green-500
+
                 
                 "
         >
@@ -29,16 +25,12 @@ export default function NavBar() {
         </span>
       </div>
       <div className="flex flex-col pl-12 tablet:flex-row w-1/2 tablet:w-3/4 laptop:flex-row laptop:w-3/4 desktop:flex-row desktop:w-9/12 largeScreen:w-7/12 justify-evenly">
-        {/* <div>
-          <Link to="/Camryn-Portfolio">Home</Link>
-        </div> */}
         <div>
           <Link to="/Camryn-Portfolio/about">About</Link>
         </div>
         <div>
           <Link to="/Camryn-Portfolio/education">Education</Link>
         </div>
-
         <div>
           <Dropdown
             inline={true}

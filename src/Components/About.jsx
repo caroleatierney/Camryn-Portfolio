@@ -13,7 +13,7 @@ export default function About() {
           <img
             className="object-cover border-8 border-darkGrayBorder mx-0"
             src={CamrynHeadshot}
-            imgAlt="Headshot"
+            imgalt="Headshot"
           />
         </div>
         <div className="mb-10 md:p-1 md:w-1/2 lg:w-1/2">

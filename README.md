@@ -20,3 +20,10 @@ className="font-normal text:sm text-red-500 sm:text-3xl sm:text-amber-500 md:tex
     // "build": "vite build --outDir build --base=/Camryn-Portfolio/",
   // { path: "/Camryn-Portfolio", element: <App />, errorElement: <ErrorPage /> },
   // { path: "/about", element: <About />, errorElement: <ErrorPage /> },
+
+
+                // text-orange-500
+                // tablet:text-purple-500
+                // laptop:text-pink-500
+                // desktop:text-blue-500
+                // largeScreen:text-green-500
