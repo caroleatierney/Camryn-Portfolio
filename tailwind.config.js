@@ -57,6 +57,6 @@ export default {
       // => @media (min-width: 1536px) { ... }
     },
   },
-  base: "/Camryn-Portfolio/about/",
+  base: "/Camryn-Portfolio/",
   plugins: [require("flowbite/plugin")],
 };

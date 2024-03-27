@@ -12,7 +12,7 @@ import.meta.env.BASE_URL;
 
 export const router = createBrowserRouter([
   {
-    path: "/Camryn-Portfolio/about",
+    path: "/Camryn-Portfolio/",
     element: <About />,
     errorElement: <ErrorPage />,
   },

@@ -26,7 +26,7 @@ export default function NavBar() {
       </div>
       <div className="flex flex-col pl-12 tablet:flex-row w-1/2 tablet:w-3/4 laptop:flex-row laptop:w-3/4 desktop:flex-row desktop:w-9/12 largeScreen:w-7/12 justify-evenly">
         <div>
-          <Link to="/Camryn-Portfolio/about">About</Link>
+          <Link to="/Camryn-Portfolio/">About</Link>
         </div>
         <div>
           <Link to="/Camryn-Portfolio/education">Education</Link>
