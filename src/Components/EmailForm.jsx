@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { Button, Textarea, Label, TextInput, Alert } from "flowbite-react";
+import { Button, Textarea, Label, TextInput, Toast } from "flowbite-react";
 import { HiMail } from "react-icons/hi";
-import { Toast } from "flowbite-react";
 import { FaTelegramPlane } from "react-icons/fa";
 
 export default function EmailForm() {
