@@ -1,7 +1,5 @@
 import React from "react";
-// import App from "../App.jsx";
 import About from "../Components/About.jsx";
-import Footer from "../Components/Footer";
 import Education from "../Components/Education";
 import Contact from "../Components/Contact";
 import PortfolioSwaponz from "../Components/PortfolioSwaponz";
@@ -18,11 +16,6 @@ export const router = createBrowserRouter([
     element: <About />,
     errorElement: <ErrorPage />,
   },
-  // {
-  //   path: "/Camryn-Portfolio/footer",
-  //   element: <Footer />,
-  //   errorElement: <ErrorPage />,
-  // },
   {
     path: "/Camryn-Portfolio/education",
     element: <Education />,

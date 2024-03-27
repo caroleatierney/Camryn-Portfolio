@@ -1,16 +1,17 @@
 {
-  "homepage": "https://caroleatierney.github.io/Camryn-Portfolio/about",
+  "homepage": "https://caroleatierney.github.io/Camryn-Portfolio/about/",
   "name": "camryn-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --outDir build --base=/Camryn-Portfolio/about",
+    "build": "vite build --outDir build --base=/Camryn-Portfolio/about/",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "postbuild": "npm run deploy"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
