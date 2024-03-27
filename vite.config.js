@@ -3,7 +3,7 @@ import tailwindcss from "tailwindcss";
 import autoprefixer from "autoprefixer";
 
 export default {
-  base: "/Camryn-Portfolio/", 
+  base: "/Camryn-Portfolio/about", 
   plugins: [react()],
   css: {
     postcss: {
