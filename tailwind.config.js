@@ -23,7 +23,9 @@ export default {
       serif: ["ui-serif", "Georgia"],
     },
     fontSize: {
-      xxs: "0.55rem",
+      xxxxs: "0.25rem",
+      xxxs: "0.35rem",
+      xxs: "0.45rem",
       xs: "0.75rem",
       sm: "0.875rem",
       base: "1rem",
@@ -41,11 +43,20 @@ export default {
       "9xl": "5.052rem",
     },
     screens: {
-      // tablet: "640px",
+      smallestMobile: "176px",
+      // => @media (min-width: 176px) { ... }
+
+      smallMobile: "240px",
+      // => @media (min-width: 240px) { ... }
+
+      smallMedMobile: "480px",
+      // => @media (min-width: 480px) { ... }
+
+      regularMobile: "640px",
       // => @media (min-width: 640px) { ... }
 
       tablet: "768px",
-      // => @media (min-width: 640px) { ... }
+      // => @media (min-width: 768px) { ... }
 
       laptop: "1024px",
       // => @media (min-width: 1024px) { ... }

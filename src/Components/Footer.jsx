@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Footer() {
   return (
-  <div className="text-lightGrayText text-xl text-center py-5">
+    <div className="text-lightGrayText text-xxs smallMobile:text-md regularMobile:text-xl laptop:text-2xl desktop:text-2xl text-center pb-2">
       GHE Digital Portfolio {new Date().getFullYear()}
-  </div>
-  )
+    </div>
+  );
 };

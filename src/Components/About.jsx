@@ -9,9 +9,9 @@ export default function About() {
       <NavBar />
       <div
         className="text:xl tablet:text-sm laptop:text-lg desktop:text-2xl largeScreen:text-3xl w-5/6 text-center items-center justify-center mx-auto bg-backgroundGray p-2 mt-12 tracking-tight dark:text-white flex flex-col md:flex-row lg:flex-row mb-20">
-        <div className="p-4 md:p-8 w-1/2">
+        <div className="p-4 md:p-8 w-5/6 tablet:w-1/2">
           <img
-            className="object-cover border-8 border-darkGrayBorder mx-0"
+            className="object-cover border-4 border-darkGrayBorder mx-0"
             src={CamrynHeadshot}
             imgalt="Headshot"
           />

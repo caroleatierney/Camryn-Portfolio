@@ -42,14 +42,14 @@ export default function EmailForm() {
     <div className="flex flex-col bg-backgroundGray w-full pt-10">
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col align-top gap-4 px-5 text-darkGrayText text:md sm:text-1xl md:text-2xl lg:text-3xl xl:text-3xl w-4/5 mx-auto"
+        className="flex flex-col align-top gap-4 px-5 text-darkGrayText smallestMobile:text-xs tablet:text-2xl lg:text-3xl xl:text-3xl w-4/5 mx-auto"
       >
         <h3 className="font-bold">Send me a message</h3>
         <div>
           <div>
             <Label
               htmlFor="fullName"
-              className="xl:text-2xl"
+              className="smallestMobile:text-xs xl:text-2xl"
               value="Full Name"
               required
             />
@@ -58,7 +58,7 @@ export default function EmailForm() {
             id="text"
             type="text"
             name="user_name"
-            className="text:sm sm:text-1xl md:text-xl lg:text-xl xl:text-1xl"
+            className="smallestMobile:text-xs sm:text-1xl md:text-xl lg:text-xl xl:text-1xl"
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
@@ -69,7 +69,7 @@ export default function EmailForm() {
           <div className="mb-2 block">
             <Label
               htmlFor="eMail"
-              className="xl:text-2xl"
+              className="smallestMobile:text-xs xl:text-2xl"
               value="Email"
               required
             />
@@ -78,7 +78,7 @@ export default function EmailForm() {
             id="email"
             type="email"
             name="user_email"
-            className="text:sm sm:text-1xl md:text-xl lg:text-xl xl:text-4xl"
+            className="smallestMobile:text-xs smallMobile:text-sm tablet:text-xl lg:text-xl xl:text-4xl"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             rightIcon={HiMail}
@@ -90,7 +90,7 @@ export default function EmailForm() {
           <div className="mb-2 block">
             <Label
               htmlFor="message"
-              className="xl:text-2xl"
+              className="smallestMobile:text-xs xl:text-2xl"
               value="Message"
               name="message"
               required

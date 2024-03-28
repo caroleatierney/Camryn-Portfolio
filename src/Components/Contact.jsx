@@ -9,11 +9,11 @@ export default function Contact() {
   return (
     <div className="bg-webPageBackground">
       <NavBar />
-      <div className="text:xs tablet:text-1xl laptop:text-2xl desktop:text-3xl largeScreen:text-5xl w-5/6 items-center justify-center py-5 pb-3 mt-5 mx-auto bg-gray-200 text-gray-800 text-center font-bold">
+      <div className="smallestMobile:text-xs smallMobile:text-md tablet:text-1xl laptop:text-2xl desktop:text-3xl largeScreen:text-5xl w-5/6 items-center justify-center py-5 mt-5 mx-auto bg-gray-200 text-gray-800 text-center font-bold">
         <h1>Ways to connect with me</h1>
       </div>
 
-      <div className="flex flex-col xl:flex-row text:xs tablet:text-desktop laptop:text-2xl desktop:text-3xl largeScreen:text-4xl items-center justify-center mx-auto bg-backgroundGray text-darkGray text-center tracking-tight dark:text-white w-5/6 min-h-screen mb-10">
+      <div className="flex flex-col xl:flex-row smallestMobile:text-xs tablet:text-desktop laptop:text-2xl desktop:text-3xl largeScreen:text-4xl items-center justify-center mx-auto bg-backgroundGray text-darkGray text-center tracking-tight dark:text-white w-5/6 min-h-screen mb-10">
         <div className="mx-auto flex flex-col justify-center w-full">
           <h1 className="pb-3">Click on my virtual contact card</h1>
 
@@ -35,12 +35,12 @@ export default function Contact() {
         <EmailForm className="self-start" />
 
         <div className="flex flex-col mb-12">
-          <h1 className="font-bold text-md tablet:text-xl laptop:text-2xl largeScreen:text-4xl py-8">
+          <h1 className="font-bold smallestMobile:text-xs tablet:text-xl laptop:text-2xl largeScreen:text-4xl px-4 py-8">
             Scan the QR Code or click on the LinkedIn Icon to connect
           </h1>
           <div className="flex flex-row items-center justify-evenly">
             <img
-              className="border-8 border-lightBorderGray size-48 laptop:size-64 largeScreen:size-80"
+              className="border-4 border-lightBorderGray size-12 smallMobile:size-24 laptop:size-64 largeScreen:size-80"
               src={QRCode}
               alt="QR Code for Digital Contact Card"
             />
@@ -49,7 +49,7 @@ export default function Contact() {
               target="none"
             >
               <svg
-                className="object-cover text-blue-600 dark:text-white size-48 laptop:size-64 largeScreen:size-80 border-8 border-lightBorderGray bg-white"
+                className="object-cover text-blue-600 dark:text-white size-12 smallMobile:size-24  laptop:size-64 largeScreen:size-80 border-4 border-lightBorderGray bg-white"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
