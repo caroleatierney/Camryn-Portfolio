@@ -15,7 +15,7 @@ export default function NavBar() {
       <div className="flex flex-row items-center space-x-4 rtl:space-x-reverse w-1/2 laptop:w-5/12 desktop:w-3/12">
         <img src={CamrynLogo} className="w-1/5 h-1/5" alt="CB Logo" />
         <span
-          className="self-center smallestMobile:text-xxs smallMobile:text-l  smallMedMobile:text-lg regularMobile:text-xl laptop:text-2xl desktop:flex desktop:justify-left largeScreen:text-5xl dark:text-white xs:p-7
+          className="self-center smallestMobile:text-xxs smallMobile:text-lg  smallMedMobile:text-lg regularMobile:text-xl laptop:text-2xl desktop:flex desktop:justify-left largeScreen:text-5xl dark:text-white xs:p-7
         
                 smallestMobile:text-yellow-100
                 smallMobile:text-orange-300
@@ -53,8 +53,12 @@ export default function NavBar() {
               </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-              <Link to="/Camryn-Portfolio/portfolioEventProposal">
-                PortfolioEventProposal
+              {/* <Link to="/Camryn-Portfolio/portfolioEventProposal"> */}
+                {/* PortfolioEventProposal */}
+              {/* </Link> */}
+
+              <Link to="/Camryn-Portfolio/EventProposal">
+                EventProposal
               </Link>
             </Dropdown.Item>
           </Dropdown>

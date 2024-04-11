@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
-import { Button, Carousel, Flowbite} from "flowbite-react";
+import { Carousel, Flowbite} from "flowbite-react";
 import CustomTheme from './CustomTheme';
 
 import Page1  from "../Images/Buonacore-Camryn-Bridal-Shower-Brunch-Event-Proposal/Page-1.jpg"
@@ -26,8 +26,9 @@ export default function PortfolioEventProposal() {
   return (
     <div className="bg-webPageBackground h-screen">
       <NavBar />
-      <div className="w-1/2 mx-auto p-6">
-        <h1 className="smallestMobile:text-xxxs smallMobile:text-sm desktop:text-xl largeScreen:text-3xl text-center tracking-tight text-gray-300 dark:text-white mx-auto px-6">
+      {/* <div className="w-full largeScreen:w-1/2 mx-auto p-6"> */}
+      <div className="h-56 sm:h-64 xl:h-80 largeScreen:w-5/12 2xl:h-96 mx-auto p-5">
+        <h1 className="smallestMobile:text-xxxs smallMobile:text-sm desktop:text-xl largeScreen:text-2xl text-center tracking-tight text-gray-300 dark:text-white mx-auto px-6">
           This is a sample event proposal I created in one of my college courses
           to gain real hands on experience in special events management. I
           decided to plan a Bridal Shower and was in charge of everything from
@@ -35,19 +36,19 @@ export default function PortfolioEventProposal() {
         </h1>
       </div>
       <Flowbite theme={{ theme: CustomTheme }}>
-        <div className="w-full smallestMobile:h-screen mx-auto">
-
-          <Carousel
-            pauseOnHover
-            className="w-1/3 mx-auto"       
-          >
-            <div className="h-full w-full object-contain">
-              <img src={Page1} alt="Page 1" />
-            </div>
-            <div className="h-full w-full object-contain">
-              <img src={Page2} alt="Page 2" />
-            </div>
-            <div className="h-full w-full object-contain">
+        {/* <div className="w-9/10 largeScreen:w-2/5 tablet:w-1/2 laptop:w-3/5 desktop:w-1/2 smallestMobile:h-screen mx-auto"> */}
+        {/* <div className="h-56 sm:h-64 xl:h-80 2xl:h-96"> */}
+        {/* <div className="overflow-hidden relative mx-auto h-screen w-full tablet:w-1/2 tablet:py-2 regularMobile:w-7/8 tablet:w-7/8 laptop:w-4/5 desktop:w-2/3 largeScreen:w-5/12"> */}
+        <Carousel pauseOnHover className="w-5/6 h-full mx-auto">
+          {/* <div className="carousel-image-container h-auto overflow-hidden"> */}
+          {/* <div className="carousel-image-container h-100 overflow-hidden w-1/2"> */}
+          <div className="w-full object-cover">
+            <img src={Page1} alt="Page 1" />
+          </div>
+          <div className="w-full object-contain">
+            <img src={Page2} alt="Page 2" />
+          </div>
+          {/* <div className="h-full w-full object-contain">
               <img src={Page3} alt="Page 3" />
             </div>
             <div className="h-full w-full object-contain">
@@ -88,12 +89,13 @@ export default function PortfolioEventProposal() {
             </div>
             <div className="h-full w-full object-contain">
               <img src={Page16} alt="Page 16" />
-            </div>
-            <div className="h-full w-full object-contain">
-              <img src={Page17} alt="Page 17" />
-            </div>
-          </Carousel>
-        </div>
+            </div>*/}
+          <div className="w-full object-contain">
+            <img src={Page17} alt="Page 17" />
+          </div>
+          {/* </div> */}
+        </Carousel>
+        {/* </div> */}
       </Flowbite>
       <Footer />
     </div>

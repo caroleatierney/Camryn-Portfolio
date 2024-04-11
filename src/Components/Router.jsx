@@ -3,7 +3,8 @@ import About from "../Components/About.jsx";
 import Education from "../Components/Education";
 import Contact from "../Components/Contact";
 import PortfolioSwaponz from "../Components/PortfolioSwaponz";
-import PortfolioEventProposal from "../Components/PortfolioEventProposal";
+// import PortfolioEventProposal from "../Components/PortfolioEventProposal";
+import EventProposal from "../Components/EventProposal";
 import ErrorPage from "./ErrorPage";
 import { createBrowserRouter } from "react-router-dom";
 import.meta.env.BASE_URL;
@@ -31,9 +32,14 @@ export const router = createBrowserRouter([
     element: <PortfolioSwaponz />,
     errorElement: <ErrorPage />,
   },
+  // {
+  //   path: "/Camryn-Portfolio/portfolioEventProposal",
+  //   element: <PortfolioEventProposal />,
+  //   errorElement: <ErrorPage />,
+  // },
   {
-    path: "/Camryn-Portfolio/portfolioEventProposal",
-    element: <PortfolioEventProposal />,
+    path: "/Camryn-Portfolio/eventProposal",
+    element: <EventProposal />,
     errorElement: <ErrorPage />,
   },
 ]);
