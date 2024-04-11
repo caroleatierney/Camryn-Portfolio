@@ -14,9 +14,9 @@ export default function Education() {
       <NavBarEdu />
       <div className="flex flex-wrap justify-center items-center mx-auto p-6 w-5/6">
         <Card className="w-full mx-auto text-center bg-gray-300 text-gray-900 dark:text-white largeScreen:p-10 largeScreen:w-3/4">
-          <div className="flex flex-col tablet:flex-row desktop:flex-row largeScreen:flex-row justify-evenly w-7/8">
-            <div className="flex flex-col items-center mx-auto w-full laptop:w-1/2 pb-5 tablet:p-3">
-              <div className="border-4 border-uMassRed bg-gray-200 flex flex-wrap items-center w-full smallMedMobile:pt-3 tablet:px-10 laptop:mb-5 largeScreen:p-5 min-h-full min-w-full">
+          <div className="flex flex-col tablet:flex-row justify-evenly w-full">
+            <div className="flex flex-col items-center mx-auto w-full laptop:w-3/4 pb-5 tablet:p-3">
+              <div className="border-4 border-uMassRed bg-gray-200 flex flex-wrap items-center w-full smallMedMobile:pt-3 tablet:px-10 laptop:mb-5 laptop:p-12 largeScreen:p-5 min-h-full min-w-full">
                 <img
                   className="object-cover max-h-full drop-shadow-md m-auto h-50 w-50 border-8 border-black"
                   src={UMassIsenbergLogoI}
@@ -30,8 +30,8 @@ export default function Education() {
               </div>
             </div>
 
-            <div className="flex flex-col items-center mx-auto w-full laptop:w-1/2 tablet:p-3">
-              <div className="border-4 border-uMassRed bg-gray-200 flex flex-wrap mx-auto smallMobile:w-3/4 tablet:px-5 min-h-full min-w-full justify-center align-middle">
+            <div className="flex flex-col items-center mx-auto w-full tablet:p-3">
+              <div className="border-4 border-uMassRed bg-gray-200 flex flex-wrap mx-auto tablet:px-5 min-h-full min-w-full justify-center align-middle">
                 <img
                   className="object-scale-down max-h-full drop-shadow-md rounded-md m-auto p-2 laptop:p-12 desktop:p-12 largeScreen:pt-10 h-50 w-50"
                   src={UMassLogo}

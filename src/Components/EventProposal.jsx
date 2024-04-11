@@ -63,7 +63,7 @@ export default function EventProposal() {
     <div className="bg-webPageBackground h-screen">
       <NavBar />
       <div className="h-45 smallestMobile:h-22 xl:h-80 desktop:w-4/5 largeScreen:w-1/2 2xl:h-96 mx-auto p-5">
-        <h1 className="smallestMobile:text-xxxxs smallMobile:text-xs tablet:text-lg laptop:text-xl desktop:text-2xl largeScreen:text-3xl text-center tracking-tight text-gray-300 dark:text-white mx-auto px-6">
+        <h1 className="text-xxs smallestMobile:text-xxxs smallMobile:text-xxs smallMedMobile:text-sm tablet:text-sm laptop:text-xl desktop:text-2xl largeScreen:text-3xltext-center tracking-tight text-gray-300 dark:text-white mx-auto px-6">
           This is a sample event proposal I created in one of my college courses
           to gain real hands on experience in special events management. I
           decided to plan a Bridal Shower and was in charge of everything from
@@ -71,9 +71,7 @@ export default function EventProposal() {
         </h1>
       </div>
 
-      <div
-        className="overflow-hidden relative mx-auto w-5/6 regularMobile:w-7/8 tablet:w-7/8 laptop:w-4/5 desktop:w-2/3 largeScreen:w-5/12">
-
+      <div className="overflow-hidden relative mx-auto w-5/6 regularMobile:w-7/8 tablet:w-7/8 laptop:w-4/5 desktop:w-2/3 largeScreen:w-5/12">
         <div
           className="flex transition-transform ease-out duration-500 items-center"
           style={{ transform: `translateX(-${curr * 100}%)` }}
@@ -96,8 +94,6 @@ export default function EventProposal() {
           </button>
         </div>
 
-
-
         <div className="absolute bottom-8 right-0 left-0">
           <div className="flex items-center justify-center gap-2">
             {slides.map((_, i) => (
@@ -113,5 +109,5 @@ export default function EventProposal() {
       </div>
       <Footer />
     </div>
-   );
+  );
 }
