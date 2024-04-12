@@ -23,6 +23,7 @@ export default {
       serif: ["ui-serif", "Georgia"],
     },
     fontSize: {
+      mini: "0.15rem",
       xxxxs: "0.25rem",
       xxxs: "0.35rem",
       xxs: "0.45rem",
@@ -66,6 +67,9 @@ export default {
 
       largeScreen: "1536px",
       // => @media (min-width: 1536px) { ... }
+
+      reallyLargeScreen: "3840px",
+      // => @media (min-width: 3840px) { ... }
     },
   },
   base: "/Camryn-Portfolio/",

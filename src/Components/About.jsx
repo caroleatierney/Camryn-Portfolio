@@ -7,17 +7,16 @@ export default function About() {
   return (
     <div className="bg-webPageBackground text-mediumGrayText">
       <NavBar />
-      <div
-        className="text:xl tablet:text-sm laptop:text-lg desktop:text-2xl largeScreen:text-3xl w-5/6 text-center items-center justify-center mx-auto bg-backgroundGray p-2 mt-12 tracking-tight dark:text-white flex flex-col md:flex-row lg:flex-row mb-20">
-        <div className="p-4 md:p-8 w-5/6 tablet:w-1/2">
+      <div className="text:xxs smallestMobile:text-xs smallMedMobile:text-sm tablet:text-md laptop:text-xl desktop:text-2xl largeScreen:text-3xl w-5/6 regularMobile:pt-6 text-center items-center justify-center mx-auto bg-backgroundGray p-2 mt-2 tracking-tight dark:text-white flex flex-col mb-2">
+        <div className="w-5/6 tablet:w-1/2 pt-2">
           <img
             className="object-cover border-4 border-darkGrayBorder mx-0"
             src={CamrynHeadshot}
             imgalt="Headshot"
           />
         </div>
-        <div className="mb-10 md:p-1 md:w-1/2 lg:w-1/2">
-          <h1 className="font-bold text:md tablet:text-lg laptop:text-2xl desktop:text-3xl largeScreen:text-4xl text-center pb-2">
+        <div className="mb-2 largeScreen:w-3/4">
+          <h1 className="pt-4 font-bold text:sm smallMedMobile:text-xl tablet:text-xl laptop:text-2xl desktop:text-3xl largeScreen:text-4xl text-center pb-2">
             About me
           </h1>
           <p className="text-mediumGrayText">
