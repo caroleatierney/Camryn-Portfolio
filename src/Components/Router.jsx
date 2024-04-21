@@ -1,6 +1,7 @@
 import React from "react";
 import About from "../Components/About.jsx";
 import Education from "../Components/Education";
+import Awards from "../Components/Awards";
 import Contact from "../Components/Contact";
 import PortfolioSwaponz from "../Components/PortfolioSwaponz";
 // import PortfolioEventProposal from "../Components/PortfolioEventProposal";
@@ -20,6 +21,11 @@ export const router = createBrowserRouter([
   {
     path: "/Camryn-Portfolio/education",
     element: <Education />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/Camryn-Portfolio/awards",
+    element: <Awards />,
     errorElement: <ErrorPage />,
   },
   {

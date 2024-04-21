@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Resume from "../Assets/Buonacore-Camryn-Resume.pdf";
+import Awards from "./Awards";
 
 const customTheme = {
   inlineWrapper:
@@ -23,6 +25,11 @@ export default function NavBarEdu() {
       >
         Resume
       </a>
+      <div>
+        <a>
+          <Link to="/Camryn-Portfolio/Awards">Awards</Link>
+        </a>
+      </div>
     </div>
   );
 };

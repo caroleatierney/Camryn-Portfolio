@@ -15,7 +15,9 @@ export default function NavBar() {
       <div className="flex flex-row items-center space-x-4 rtl:space-x-reverse w-1/2 laptop:w-5/12">
         <img src={CamrynLogo} className="w-1/5 h-1/5" alt="CB Logo" />
         <span
-          className="self-center text-xs smallestMobile:text-xs smallMobile:text-md  smallMedMobile:text-lg regularMobile:text-lg laptop:text-2xl desktop:text-3xl largeScreen:text-5xl dark:text-white xs:p-7
+          className="self-center 
+          text-xs
+          smallestMobile:text-xs smallMobile:text-md  smallMedMobile:text-lg regularMobile:text-lg laptop:text-2xl desktop:text-3xl largeScreen:text-5xl dark:text-white xs:p-7
         
                 text-orange-500
                 smallestMobile:text-yellow-100
