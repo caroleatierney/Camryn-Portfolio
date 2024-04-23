@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Resume from "../Assets/Buonacore-Camryn-Resume.pdf";
-import Awards from "./Awards";
 
 const customTheme = {
   inlineWrapper:
@@ -25,12 +24,14 @@ export default function NavBarEdu() {
       >
         Resume
       </a>
-       <a
+        <Link
           className="mt-5 text-white bg-mediumGrayText hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-xxs px-2 py-1 regularMobile:px-4 regularMobile:py-2 regularMobile:text-sm dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
           target="_blank"
+          to="/Camryn-Portfolio/Awards"
         >
-          <Link to="/Camryn-Portfolio/Awards">Awards</Link>
-        </a>
+          Clubs & Awards
+        </Link>
+ 
     </div>
   );
 };
