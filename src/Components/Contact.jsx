@@ -24,7 +24,7 @@ export default function Contact() {
               target="blank"
             >
               <img
-                className="object-contain border-8 border-uMassRed w-2/3 mx-auto"
+                className="object-contain border-8 border-uMassRed w-2/3 desktop:w-1/3 mx-auto"
                 src={ContactCard}
                 alt="Contact Card"
               />
@@ -35,9 +35,11 @@ export default function Contact() {
         <EmailForm className="self-start" />
 
         <div className="flex flex-col mb-12">
-          <h1 className="font-bold smallestMobile:text-xs tablet:text-xl laptop:text-2xl largeScreen:text-4xl px-4 py-8">
-            Scan the QR Code or click on the LinkedIn Icon to connect
-          </h1>
+          <div>
+            <h1 className="font-bold smallestMobile:text-xs tablet:text-xl laptop:text-2xl largeScreen:text-3xl px-4 py-8">
+              Scan the QR Code or click on the LinkedIn Icon to connect
+            </h1>
+          </div>
           <div className="flex flex-row items-center justify-evenly">
             <img
               className="border-4 border-lightBorderGray size-12 smallMobile:size-24 laptop:size-64 largeScreen:size-80"
