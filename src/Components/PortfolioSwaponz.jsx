@@ -8,7 +8,7 @@ export default function PortfolioSwaponz() {
       <NavBar />
       <div className="w-screen flex justify-center pt-5 text-lg tablet:text-md laptop:text-lg desktop:text-xl largeScreen:text-2xl">
         <Card className="bg-backgroundGray w-5/6 laptop:w-5/6 desktop:w-3/4 largeScreen:w-5/6 mx-auto md:p-2 md:m-2">
-          <div className="text-xl tablet:text-xl laptop:text-2xl desktop:text-3xl font-bold tracking-tight dark:text-white text-center flex flex-col tablet:flex-row justify-center">
+          <div className="leading-loose font-serif mx-auto text-xs smallMedMobile:text-md tablet:text-md laptop:text-lg desktop:text-3xl largeScreen:text-4xl font-bold tracking-tight dark:text-white text-center flex flex-col tablet:flex-row justify-center">
             <div>
               <h1>Swaponz Internship</h1>
             </div>
@@ -19,7 +19,7 @@ export default function PortfolioSwaponz() {
               <h1>June 2023 - Present</h1>
             </div>
           </div>
-          <div className="laptop:text-justify text-center pt-5">
+          <div className="laptop:text-justify text-center font-serif mx-auto text-xxxs smallestMobile:text-xxxs smallMobile:text-xxs smallMedMobile:text-xs tablet:text-sm laptop:text-md desktop:text-2xl largeScreen:text-2xl pt-2">
             <p className="pb-6">
               This past summer I had the opportunity to begin an internship at a
               startup company called Swaponz. Swaponz is a phone case company
@@ -49,11 +49,11 @@ export default function PortfolioSwaponz() {
               an integral part of planning and conducting the event.
             </p>
           </div>
-          <div className="font-normal text-sm sm:text-2xl  md:text-2xl 0 lg:text-2xl xl:text-3xl pt-3 pb-2 justify-center flex">
+          <div className="mx-auto">
             <a
               href="https://swaponz.com/"
               target="_blank"
-              className="text-white bg-gray-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-md px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+              className="text-white bg-gray-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 font-serif mx-auto text-xxxs smallMedMobile:text-xs regularMobile:text-xs tablet:text-xs laptop:text-sm desktop:text-2xl largeScreen:text-2xl"
             >
               Check out Swaponz
             </a>

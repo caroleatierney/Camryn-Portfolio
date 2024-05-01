@@ -42,7 +42,7 @@ export default function EmailForm() {
     <div className="flex flex-col bg-backgroundGray w-full pt-10">
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col align-top gap-4 px-5 text-darkGrayText smallestMobile:text-xs tablet:text-2xl lg:text-3xl xl:text-3xl w-4/5 mx-auto"
+        className="flex flex-col align-top gap-4 px-5 text-darkGrayText smallestMobile:text-xs tablet:text-2xl w-4/5 mx-auto"
       >
         <h3 className="font-bold">Send me a message</h3>
         <div>

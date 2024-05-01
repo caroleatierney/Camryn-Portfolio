@@ -62,56 +62,56 @@ export default function EventProposal() {
     }
 
     return (
-    <div className="bg-webPageBackground h-screen">
-      <NavBar />
-      <NavBarEvent />
-      <div className="h-45 smallestMobile:h-22 xl:h-80 desktop:w-4/5 largeScreen:w-1/2 2xl:h-96 mx-auto p-5">
-        <h1 className="text-xxs smallestMobile:text-xxxs smallMobile:text-xxs smallMedMobile:text-sm tablet:text-sm laptop:text-xl desktop:w-2/3 desktop:text-xl largeScreen:text-3xltext-center tracking-tight text-gray-300 dark:text-white mx-auto px-6">
-          This is a sample event proposal I created in one of my college courses
-          to gain real hands on experience in special events management. I
-          decided to plan a Bridal Shower and was in charge of everything from
-          theme and design, to budget, to venue and location.
-        </h1>
-      </div>
-
-       <div className="overflow-hidden relative mx-auto w-5/6 regularMobile:w-7/8 tablet:w-7/8 laptop:w-4/5 desktop:w-1/3 largeScreen:w-5/12">
-        <Carousel />
-        <div
-          className="flex transition-transform ease-out duration-500 items-center"
-          style={{ transform: `translateX(-${curr * 100}%)` }}
-        >
-          {slides}
+      <div className="bg-webPageBackground h-screen">
+        <NavBar />
+        <NavBarEvent />
+        <div className="h-45 smallestMobile:h-22 xl:h-80 laptop:w-5/6 desktop:w-2/3 largeScreen:w-1/2 2xl:h-96 mx-auto p-5">
+          <h1 className="laptop:text-justify text-center leading-loose font-serif text-mini smallestMobile:text-xxxs smallMobile:text-xxs smallMedMobile:text-xs tablet:text-sm laptop:text-lg desktop:text-2xl largeScreen:text-2xl text-gray-300 dark:text-white mx-auto px-6">
+            This is a sample event proposal I created in one of my college
+            courses to gain real hands on experience in special events
+            management. I decided to plan a Bridal Shower and was in charge of
+            everything from theme and design, to budget, to venue and location.
+          </h1>
         </div>
 
-        <div className="absolute inset-0 flex items-center justify-between p-4">
-          <button
-            onClick={prev}
-            className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
+        <div className="overflow-hidden relative mx-auto w-5/6 regularMobile:w-7/8 tablet:w-7/8 laptop:w-4/5 desktop:w-2/3 largeScreen:w-5/12">
+          <Carousel />
+          <div
+            className="flex transition-transform ease-out duration-500 items-center"
+            style={{ transform: `translateX(-${curr * 100}%)` }}
           >
-            <ChevronLeft />
-          </button>
-          <button
-            onClick={next}
-            className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
-          >
-            <ChevronRight />
-          </button>
-        </div>
+            {slides}
+          </div>
 
-        <div className="absolute bottom-8 right-0 left-0">
-          <div className="flex items-center justify-center gap-2">
-            {slides.map((_, i) => (
-              <div
-                key={i}
-                className={`transition-all w-2.5 h-2.5 bg-backgroundGray rounded-full  ${
-                  curr === i ? "p-0.5" : "bg-black/50"
-                }`}
-              />
-            ))}
+          <div className="absolute inset-0 flex items-center justify-between p-4">
+            <button
+              onClick={prev}
+              className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
+            >
+              <ChevronLeft />
+            </button>
+            <button
+              onClick={next}
+              className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
+            >
+              <ChevronRight />
+            </button>
+          </div>
+
+          <div className="absolute bottom-8 right-0 left-0">
+            <div className="flex items-center justify-center gap-2">
+              {slides.map((_, i) => (
+                <div
+                  key={i}
+                  className={`transition-all w-2.5 h-2.5 bg-backgroundGray rounded-full  ${
+                    curr === i ? "p-0.5" : "bg-black/50"
+                  }`}
+                />
+              ))}
+            </div>
           </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
-  );
+    );
 }

@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div className="bg-webPageBackground text-mediumGrayText">
       <NavBar />
-      <div className="text:xxs smallestMobile:text-xs smallMedMobile:text-sm tablet:text-lg laptop:text-xl desktop:text-2xl largeScreen:text-3xl w-5/6 regularMobile:pt-6 text-center items-center justify-center mx-auto bg-backgroundGray p-2 mt-2 tracking-tight dark:text-white flex flex-col mb-2">
+      <div className="font-serif text:xxs smallestMobile:text-xs smallMedMobile:text-sm tablet:text-lg laptop:text-xl desktop:text-2xl largeScreen:text-3xl w-5/6 regularMobile:pt-6 text-center items-center justify-center mx-auto bg-backgroundGray p-2 mt-2 tracking-tight dark:text-white flex flex-col mb-2">
         <div className="w-5/6 tablet:w-3/4 pt-2">
           <img
             className="object-cover border-4 border-darkGrayBorder mx-0"

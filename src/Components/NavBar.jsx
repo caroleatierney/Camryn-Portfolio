@@ -17,19 +17,16 @@ export default function NavBar() {
         <span
           className="self-center 
           text-xs
-          smallestMobile:text-xs smallMobile:text-md  smallMedMobile:text-lg regularMobile:text-lg laptop:text-2xl desktop:text-3xl largeScreen:text-5xl dark:text-white xs:p-7
-        
-                text-orange-500
-                smallestMobile:text-yellow-100
-                smallMobile:text-orange-300
-                smallMedMobile:text-green-100
-                regularMobile:text-blue-200
-                tablet:text-purple-500
-                laptop:text-pink-500
-                desktop:text-blue-500
-                largeScreen:text-green-500
-                
-                "
+          smallestMobile:text-xs smallMobile:text-md  smallMedMobile:text-lg regularMobile:text-lg laptop:text-2xl desktop:text-3xl largeScreen:text-5xl dark:text-white xs:p-7"
+          // text-orange-500
+          // smallestMobile:text-yellow-100
+          // smallMobile:text-orange-300
+          // smallMedMobile:text-green-100
+          // regularMobile:text-blue-200
+          // tablet:text-purple-500
+          // laptop:text-pink-500
+          // desktop:text-blue-500
+          // largeScreen:text-green-500
         >
           CAMRYN BUONACORE
         </span>

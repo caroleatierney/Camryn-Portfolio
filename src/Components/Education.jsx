@@ -15,43 +15,45 @@ export default function Education() {
       <div className="flex flex-wrap justify-center items-center mx-auto p-6 w-5/6">
         <Card className="w-full mx-auto text-center bg-gray-300 text-gray-900 dark:text-white m-10">
           <div className="flex flex-col mx-auto w-full tablet:flex-row tablet:p-2 laptop:p-5">
-            <div className="border-2 tablet:border-4 border-uMassRed bg-gray-200 flex flex-col items-center basis-1/2 mb-3 laptop:m-2 tablet:m-5">
-              <div className="flex items-center justify-content-center basis-1/2">
-                <img
-                  className="object-cover border-4 tablet:border-8 laptop:border-6 smallMedMobile:mt-3 laptop:mt-4 border-white"
-                  src={UMassIsenbergLogoI}
-                  alt="Isenberg-Logo"
-                />
+            <div className="flex flex-col mx-auto w-full tablet:flex-row tablet:p-2 laptop:p-5">
+              <div className="border-2 tablet:border-4 border-uMassRed bg-gray-200 flex flex-col items-center basis-1/2 mb-3 laptop:m-2 tablet:m-5">
+                <div className="flex items-center justify-content-center basis-1/2 pt-2">
+                  <img
+                    className="p-2 laptop:m-0 object-contain smallMedMobile:max-w-24 tablet:max-w-24 laptop:max-w-36 desktop:max-w-64"
+                    src={UMassIsenbergLogoI}
+                    alt="Isenberg-Logo"
+                  />
+                </div>
+                <div className="p-3 tablet:p-8 laptop:p-2 flex items-center justify-content-center basis-1/2 smallMedMobile:max-w-36 tablet:max-w-48 laptop:max-w-56 desktop:max-w-96">
+                  <img
+                    className="object-cover"
+                    src={UMassIsenbergLogoName}
+                    alt="Isenberg-Logo-Name"
+                  />
+                </div>
               </div>
-              <div className="p-3 tablet:p-8 laptop:p-2 flex items-center justify-content-center basis-1/2">
-                <img
-                  className="object-cover"
-                  src={UMassIsenbergLogoName}
-                  alt="Isenberg-Logo-Name"
-                />
-              </div>
-            </div>
 
-            <div className="border-2 tablet:border-4 border-uMassRed bg-gray-200 flex flex-col items-center basis-1/2 tablet:m-5 laptop:m-2">
-              <div className="p-2 tablet:p-8 basis-1/2">
-                <img
-                  className="object-cover"
-                  src={UMassLogo}
-                  alt="UMass-Logo"
-                />
-              </div>
-              <div className="tablet:p-2 basis-1/2">
-                <span className="flex flex-col leading-loose font-serif mx-auto text-mini smallestMobile:text-mini smallMobile:text-xxxs smallMedMobile:text-md tablet:text-md laptop:text-lg desktop:text-2xl largeScreen:text-2xl items-center justify-center desktop:pt-3">
-                  <p className="font-bold">
-                    Bachelor of Business Administration
-                  </p>
-                  <p>Marketing</p>
-                  <p>Sep 2020 - May- 2024</p>
-                  <p>Cumulative GPA: 4.0</p>
-                </span>
+              <div className="border-2 tablet:border-4 border-uMassRed bg-gray-200 flex flex-col basis-1/2 mb-3 laptop:m-2 tablet:m-5 items-center justify-center">
+                <div className="flex items-center justify-content-center p-2 h-1/2">
+                  <img
+                    className="object-contain smallMedMobile:max-w-24 tablet:max-w-24 laptop:max-w-36 desktop:max-w-64"
+                    src={UMassLogo}
+                    alt="UMass-Logo"
+                  />
+                </div>
+                <div className="p-3 tablet:p-8 laptop:p-2 flex items-center justify-content-center h-1/2">
+                  <span className="flex flex-col leading-loose font-serif mx-auto text-mini smallestMobile:text-mini smallMobile:text-xxxxs smallMedMobile:text-xs tablet:text-xxs laptop:text-sm desktop:text-2xl largeScreen:text-2xl items-center justify-center desktop:pt-3">
+                    <p className="font-bold">
+                      Bachelor of Business Administration
+                    </p>
+                    <p>Marketing</p>
+                    <p>Sep 2020 - May- 2024</p>
+                    <p>Cumulative GPA: 4.0</p>
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
+           </div>
         </Card>
       </div>
       <Footer />
