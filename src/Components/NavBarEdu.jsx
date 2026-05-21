@@ -29,8 +29,6 @@ export default function NavBarEdu() {
           target="_blank"
           to="/Camryn-Portfolio/Awards"
         >
-          Clubs & Awards
-        </Link>
  
     </div>
   );
