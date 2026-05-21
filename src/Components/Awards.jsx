@@ -21,13 +21,15 @@ export default function Awards() {
             imgalt="Award Image"
           />
           <p className="text-mediumGrayText tablet:px-10 largeScreen:px-0">
-            Award details...
+            <a
+              href="https://www.isenberg.umass.edu/news/isenberg-sales-club-hosts-competition"
+              className="mt-5 text-white bg-mediumGrayText hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-xxs px-2 py-1 regularMobile:px-4 regularMobile:py-2 regularMobile:text-sm dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+              target="_blank"
+            >
+              See more here
+            </a>
           </p>
-          <h3 className="pt-4 text:sm smallMedMobile:text-xl tablet:text-xl laptop:text-2xl desktop:text-3xl largeScreen:text-2xl text-center pb-2 w-2/3 mx-auto">
-            also any info about the women in business club and your title and
-            duties and dates you were in it.
-          </h3>
-        </div>
+         </div>
       </div>
       <Footer />
     </div>
