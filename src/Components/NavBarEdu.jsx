@@ -27,7 +27,7 @@ export default function NavBarEdu() {
         <Link
           className="mt-5 text-white bg-mediumGrayText hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-xxs px-2 py-1 regularMobile:px-4 regularMobile:py-2 regularMobile:text-sm dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
           target="_blank"
-          to="/Camryn-Portfolio/Awards"
+          to="/Camryn-Portfolio/awards"
         >
           Clubs & Awards
         </Link>
