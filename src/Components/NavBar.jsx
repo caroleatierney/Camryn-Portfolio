@@ -33,10 +33,10 @@ export default function NavBar() {
       </div>
       <div className="flex flex-col pl-12 text-xxs smallestMobile:text-xxs smallMobile:text-xxs smallMedMobile:text-xs regularMobile:text-sm tablet:text-lg tablet:flex-row w-1/2 tablet:w-3/4 laptop:text-lg laptop:flex-row laptop:w-3/4 regularMobile:flex-row regularMobile:w-9/12 desktop:flex-row desktop:w-9/12 desktop:text-3xl largeScreen:text-3xl largeScreen:w-7/12 justify-evenly">
         <div>
-          <Link to="/Camryn-Portfolio/">About</Link>
+          <Link to="/">About</Link>
         </div>
         <div>
-          <Link to="/Camryn-Portfolio/education">Education</Link>
+          <Link to="/education">Education</Link>
         </div>
         <div>
           <Dropdown
@@ -48,7 +48,7 @@ export default function NavBar() {
           >
             <Dropdown.Item>
               <Link
-                to="/Camryn-Portfolio/portfolioSwaponz"
+                to="/portfolioSwaponz"
                 className="text-xxs smallMedMobile:text-xs tablet:text-lg desktop:text-3xl text-mediumGray"
               >
                 PortfolioSwaponz
@@ -60,7 +60,7 @@ export default function NavBar() {
               {/* </Link> */}
 
               <Link
-                to="/Camryn-Portfolio/EventProposal"
+                to="/EventProposal"
                 className="text-xxs smallMedMobile:text-xs tablet:text-lg desktop:text-3xl text-mediumGray"
               >
                 EventProposal
@@ -69,7 +69,7 @@ export default function NavBar() {
           </Dropdown>
         </div>
         <div>
-          <Link to="/Camryn-Portfolio/contact">Contact</Link>
+          <Link to="/contact">Contact</Link>
         </div>
       </div>
     </div>

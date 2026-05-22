@@ -18,9 +18,8 @@ export default function ErrorPage() {
       </p>
 
       <a
-        href="http://Camryn-Portfolio/"
-        className="mt-5 text-white bg-mediumGray hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-xs px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-        target="_blank"
+        href="/"
+        className="mt-5 text-white bg-mediumGray hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-sm text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
       >
         Return to home page
       </a>
