@@ -1,5 +1,5 @@
 import React from "react";
-import About from "../Components/About.jsx";
+import About from "../Components/About";
 import Education from "../Components/Education";
 import Awards from "../Components/Awards";
 import Contact from "../Components/Contact";
